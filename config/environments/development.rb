@@ -55,4 +55,5 @@ Rails.application.configure do
   # Use Solid Queue in Development.
   config.active_job.queue_adapter = :solid_queue
   config.solid_queue.connects_to = { database: { writing: :queue } }
+  config.solid_queue.logger = ActiveSupport::Logger.new(STDOUT)
 end
