@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require "fileutils"
+require "playwright"
 
+PLAYWRIGHT_CLI_VERSION=Playwright::COMPATIBLE_PLAYWRIGHT_VERSION.strip
 APP_ROOT = File.expand_path("..", __dir__)
 
 def system!(*args)
@@ -17,6 +19,8 @@ FileUtils.chdir APP_ROOT do
 
   # Install JavaScript dependencies
   system("yarn install --check-files")
+  system("yarn add -D playwright@#{PLAYWRIGHT_CLI_VERSION}")
+  system("yarn run playwright install --with-deps --only-chrome")
 
   # puts "\n== Copying sample files =="
   # unless File.exist?("config/database.yml")
