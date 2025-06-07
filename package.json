@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "playwright": "1.52.0"
+  },
+  "dependencies": {
+    "@uswds/uswds": "^3.0.0",
+    "normalize.css": "^8.0.1"
   }
 }
