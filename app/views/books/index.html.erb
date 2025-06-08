@@ -1,16 +1,39 @@
-<p style="color: green"><%= notice %></p>
-
 <% content_for :title, "Books" %>
 
-<h1>Books</h1>
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="grid-col-12">
+      <% if notice %>
+        <div class="usa-alert usa-alert--success" role="alert">
+          <div class="usa-alert__body">
+            <p class="usa-alert__text"><%= notice %></p>
+          </div>
+        </div>
+      <% end %>
 
-<div id="books">
-  <% @books.each do |book| %>
-    <%= render book %>
-    <p>
-      <%= link_to "Show this book", book %>
-    </p>
-  <% end %>
+      <div class="margin-y-4">
+        <h1 class="margin-bottom-0">Books</h1>
+        <p class="usa-intro">Manage your book collection</p>
+      </div>
+
+      <div id="books" class="usa-card-group">
+        <% @books.each do |book| %>
+          <div class="usa-card tablet:grid-col-4">
+            <div class="usa-card__container">
+              <div class="usa-card__body">
+                <%= render book %>
+              </div>
+              <div class="usa-card__footer">
+                <%= link_to "View details", book, class: "usa-button usa-button--outline" %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="margin-top-4">
+        <%= link_to "Add new book", new_book_path, class: "usa-button" %>
+      </div>
+    </div>
+  </div>
 </div>
-
-<%= link_to "New book", new_book_path %>
