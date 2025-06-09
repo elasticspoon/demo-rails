@@ -10,11 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_31_232018) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_08_055859) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "string"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "commit_comments", force: :cascade do |t|
+    t.integer "commit_metadatum_id", null: false
+    t.text "content"
+    t.text "author"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["commit_metadatum_id"], name: "index_commit_comments_on_commit_metadatum_id"
+  end
+
+  create_table "commit_metadata", force: :cascade do |t|
+    t.string "sha", null: false
+    t.string "repo_owner", null: false
+    t.string "repo_name", null: false
+    t.string "jira_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sha", "repo_owner", "repo_name"], name: "index_commit_metadata_on_sha_and_repo_owner_and_repo_name", unique: true
+  end
+
+  add_foreign_key "commit_comments", "commit_metadata"
 end

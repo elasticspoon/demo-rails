@@ -23,6 +23,7 @@ gem "foreman"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "httparty"
 
 # Use the database-backed adapters for Rails.cache and Active Job
 gem "solid_cache"
@@ -38,6 +39,7 @@ group :test do
   gem "rspec-rails"
   gem "capybara"
   gem "capybara-playwright-driver"
+  gem "webmock"
 end
 
 group :development, :test do

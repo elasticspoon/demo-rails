@@ -1,0 +1,10 @@
+<%= turbo_frame_tag "commit_#{metadata.id}_comment_form" do %>
+  <%= form_with model: [metadata, CommitComment.new],
+    url: commit_metadatum_commit_comments_path(metadata), class: "margin-top-2" do |f| %>
+    <div class="usa-form-group">
+      <%= f.label :content, "Add a comment", class: "usa-label" %>
+      <%= f.text_area :content, class: "usa-textarea", rows: 3 %>
+    </div>
+    <%= f.submit "Post Comment", class: "usa-button" %>
+  <% end %>
+<% end %>

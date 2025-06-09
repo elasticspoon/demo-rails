@@ -1,0 +1,81 @@
+<div class="grid-container">
+  <h1 class="font-heading-xl margin-top-0 margin-bottom-4">
+    Recent Commits from <%= @commits.first&.repo_owner %>/<%= @commits.first&.repo_name %>
+  </h1>
+
+  <% if @commits.empty? %>
+    <div class="usa-alert usa-alert--warning">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">No commits available at this time.</p>
+      </div>
+    </div>
+  <% else %>
+    <div class="grid-row grid-gap">
+      <% @commits.each do |commit| %>
+        <div class="margin-bottom-4">
+          <div class="usa-card">
+            <div class="usa-card__container">
+              <header class="usa-card__header">
+                <h2 class="usa-card__heading">
+                  <%= link_to commit.short_message, commit.url, 
+                        class: "usa-link", 
+                        target: "_blank",
+                        rel: "noopener noreferrer" %>
+                </h2>
+              </header>
+              <div class="usa-card__body">
+                <table class="usa-table width-full">
+                  <tbody>
+                    <tr>
+                      <td class="text-bold">Repository:</td>
+                      <td><%= commit.repo_owner %>/<%= commit.repo_name %></td>
+                    </tr>
+                    <tr>
+                      <td class="text-bold">Author:</td>
+                      <td><%= commit.author_name %></td>
+                    </tr>
+                    <tr>
+                      <td class="text-bold">Date:</td>
+                      <td><%= commit.formatted_date %></td>
+                    </tr>
+                    <tr>
+                      <td class="text-bold">SHA:</td>
+                      <td class="font-mono-2xs"><%= commit.sha %></td>
+                    </tr>
+                    <tr>
+                      <td class="text-bold">Jira:</td>
+                      <td><%= link_to commit.metadata.jira_url, commit.metadata.jira_url, target: "_blank" %></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="margin-top-3">
+                  <% if commit.metadata.comments.any? %>
+                    <table class="usa-table width-full margin-top-2">
+                      <colgroup>
+                        <col style="width: 60%">
+                        <col style="width: 20%">
+                        <col style="width: 20%">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Comment</th>
+                          <th scope="col">Author</th>
+                          <th scope="col">Posted</th>
+                        </tr>
+                      </thead>
+                      <tbody id="<%= "commit_#{commit.metadata.id}_comments" %>">
+                        <%= render partial: "commit_comments/comment", collection: commit.metadata.comments %>
+                      </tbody>
+                    </table>
+                  <% end %>
+
+                  <%= render "commit_comments/form", metadata: commit.metadata %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
