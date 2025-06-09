@@ -6,12 +6,12 @@ class JiraTicket < ApplicationRecord
     "https://jira.example.com/browse/#{ticket_number}"
   end
 
-  # Dummy methods for now
+  # Dummy methods for now - will replace with real data later
   def state
-    "In Progress"
+    ["Open", "In Progress", "Done"].sample
   end
 
   def author
-    "Dev Team"
+    ["Dev Team", "QA Team", "Product"].sample
   end
 end

@@ -1,0 +1,29 @@
+<%= turbo_frame_tag "#{@commit_metadatum.id}_jira_tickets" do %>
+  <% if @tickets.any? %>
+    <table class="usa-table width-full margin-top-1">
+      <colgroup>
+        <col style="width: 60%">
+        <col style="width: 20%">
+        <col style="width: 20%">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Ticket</th>
+          <th scope="col">State</th>
+          <th scope="col">Author</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @tickets.each do |ticket| %>
+          <tr>
+            <td><%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-link" %></td>
+            <td><%= ticket.state %></td>
+            <td><%= ticket.author %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% else %>
+    <p>No Jira tickets found</p>
+  <% end %>
+<% end %>
