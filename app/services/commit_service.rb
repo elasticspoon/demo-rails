@@ -19,8 +19,13 @@ class CommitService
         repo_owner: repo_owner,
         repo_name: repo_name
       )
-      metadata.parse_jira_tickets(commit_data.dig("commit", "message"))
-      metadata.save! if metadata.changed?
+      
+      # Parse and associate Jira tickets if message exists
+      if (message = commit_data.dig("commit", "message")).present?
+        metadata.parse_jira_tickets(message)
+      end
+      
+      metadata.save! if metadata.changed? || metadata.jira_tickets.any?(&:new_record?)
 
       Commit.new(
         sha: sha,
