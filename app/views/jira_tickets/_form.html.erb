@@ -1,15 +1,26 @@
 <tr id="<%= dom_id(ticket) %>">
-  <%= form_with(model: [commit_metadatum, ticket],
-               data: { turbo: true }) do |f| %>
-    <td><%= f.text_field :ticket_number, class: "usa-input" %></td>
-    <td><%= ticket.state %></td>
-    <td><%= ticket.author %></td>
-    <td>
-      <%= f.submit "Save", class: "usa-button" %>
-      <%= link_to "Cancel", 
-          commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
-          class: "usa-button usa-button--secondary",
-          data: { turbo_stream: true } %>
-    </td>
-  <% end %>
+  <td colspan="4">
+    <%= form_with(model: [commit_metadatum, ticket], id: dom_id(ticket, :form), data: { turbo: true } do |f| %>
+      <div class="display-flex flex-align-center">
+        <div class="margin-right-2 flex-fill">
+          <%= f.text_field :ticket_number, class: "usa-input width-full" %>
+        </div>
+        <div class="margin-right-2">
+          <%= ticket.state %>
+        </div>
+        <div class="margin-right-2">
+          <%= ticket.author %>
+        </div>
+        <div>
+          <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button margin-right-1">
+            Save
+          </button>
+          <%= link_to "Cancel", 
+              commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
+              class: "usa-button usa-button--secondary",
+              data: { turbo_stream: true } %>
+        </div>
+      </div>
+    <% end %>
+  </td>
 </tr>
