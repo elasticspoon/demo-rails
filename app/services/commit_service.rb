@@ -8,24 +8,24 @@ class CommitService
 
   def recent_commits
     response = GithubClient.new(repo).recent_commits(limit: PER_PAGE)
-    return [] unless response&.success?
+    # return [] unless response&.success?
 
-    response.parsed_response.map do |commit_data|
-      repo_owner, repo_name = repo.split('/')
+    response.map do |commit_data|
+      repo_owner, repo_name = repo.split("/")
       sha = commit_data["sha"]
-      
+
       metadata = CommitMetadatum.find_or_initialize_by(
         sha: sha,
         repo_owner: repo_owner,
         repo_name: repo_name
       )
-      
+
       # Only parse Jira tickets for new records
       if metadata.new_record? && (message = commit_data.dig("commit", "message")).present?
-        metadata.parse_jira_tickets(message)
+        metadata.jira_tickets = parse_jira_tickets(message)
       end
-      
-      metadata.save! if metadata.changed?
+
+      metadata.save!
 
       Commit.new(
         sha: sha,
@@ -38,8 +38,19 @@ class CommitService
         metadata: metadata
       )
     end
-  rescue StandardError => e
-    Rails.logger.error "Commit building failed: #{e.message}"
-    []
+    # rescue StandardError => e
+    #   Rails.logger.error "Commit building failed: #{e.message}"
+    #   []
+  end
+
+  def parse_jira_tickets(message)
+    return unless message.present?
+
+    # Extract Jira ticket numbers (format: ABC-123)
+    ticket_numbers = message.scan(/(#\d+)/).flatten.uniq
+
+    ticket_numbers.map do |ticket_number|
+      JiraTicket.find_or_initialize_by(ticket_number: ticket_number)
+    end
   end
 end

@@ -7,9 +7,10 @@ class GithubClient
   end
 
   def recent_commits(limit: 30)
-    self.class.get("/repos/#{@repo}/commits",
-      headers: { "Accept" => "application/vnd.github.v3+json" },
-      query: { per_page: limit }
-    )
+    # self.class.get("/repos/#{@repo}/commits",
+    #   headers: { "Accept" => "application/vnd.github.v3+json" },
+    #   query: { per_page: limit }
+    # )
+    JSON.parse(File.read("spec/fixtures/commits.json"))
   end
 end

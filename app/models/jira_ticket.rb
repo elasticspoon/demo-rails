@@ -1,5 +1,5 @@
 class JiraTicket < ApplicationRecord
-  belongs_to :commit_metadatum, foreign_key: 'commit_metadata_id'
+  belongs_to :commit_metadata, foreign_key: "commit_metadata_id", class_name: "CommitMetadatum"
   validates :ticket_number, presence: true
 
   def url

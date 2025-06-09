@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_08_055859) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_09_171000) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "string"
@@ -37,5 +37,14 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_08_055859) do
     t.index ["sha", "repo_owner", "repo_name"], name: "index_commit_metadata_on_sha_and_repo_owner_and_repo_name", unique: true
   end
 
+  create_table "jira_tickets", force: :cascade do |t|
+    t.string "ticket_number"
+    t.integer "commit_metadata_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["commit_metadata_id"], name: "index_jira_tickets_on_commit_metadata_id"
+  end
+
   add_foreign_key "commit_comments", "commit_metadata"
+  add_foreign_key "jira_tickets", "commit_metadata", column: "commit_metadata_id"
 end
