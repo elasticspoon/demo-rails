@@ -1,10 +1,15 @@
 {
   "devDependencies": {
+    "esbuild": "^0.25.5",
     "playwright": "1.52.0"
   },
   "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.16",
     "@uswds/uswds": "^3.0.0",
     "normalize.css": "^8.0.1"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets"
   }
 }

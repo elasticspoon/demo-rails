@@ -1,10 +1,29 @@
-<%= turbo_frame_tag "commit_#{metadata.id}_comment_form" do %>
-  <%= form_with model: [metadata, CommitComment.new],
-    url: commit_metadatum_commit_comments_path(metadata), class: "margin-top-2" do |f| %>
-    <div class="usa-form-group">
-      <%= f.label :content, "Add a comment", class: "usa-label" %>
-      <%= f.text_area :content, class: "usa-textarea", rows: 3 %>
-    </div>
-    <%= f.submit "Post Comment", class: "usa-button" %>
-  <% end %>
+<%= turbo_frame_tag "commit_#{metadata.id}_comment_form", data: { controller: "form-comment" } do %>
+  <div data-form-comment-target="button">
+    <button 
+      class="usa-button usa-button--outline" 
+      data-action="form-comment#toggle"
+      data-form-comment-target="button"
+    >
+      Add Comment
+    </button>
+  </div>
+
+  <div data-form-comment-target="form" class="display-none">
+    <%= form_with model: [metadata, CommitComment.new],
+      url: commit_metadatum_commit_comments_path(metadata), class: "margin-top-2" do |f| %>
+      <div class="usa-form-group">
+        <%= f.label :content, "Add a comment", class: "usa-label" %>
+        <%= f.text_area :content, class: "usa-textarea", rows: 3 %>
+      </div>
+      <%= f.submit "Post Comment", class: "usa-button" %>
+      <button 
+        type="button" 
+        class="usa-button usa-button--outline margin-left-1"
+        data-action="form-comment#toggle"
+      >
+        Cancel
+      </button>
+    <% end %>
+  </div>
 <% end %>
