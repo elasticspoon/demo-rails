@@ -5,4 +5,13 @@ class JiraTicket < ApplicationRecord
   def url
     "https://jira.example.com/browse/#{ticket_number}"
   end
+
+  # Dummy methods for now
+  def state
+    "In Progress"
+  end
+
+  def author
+    "Dev Team"
+  end
 end
