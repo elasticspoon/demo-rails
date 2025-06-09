@@ -1,4 +1,4 @@
-<tr id="<%= dom_id(@ticket) %>">
+<tr id="<%= dom_id(ticket) %>">
   <%= form_with(model: [@commit_metadatum, @ticket], 
                data: { turbo_frame: dom_id(@ticket) }) do |f| %>
     <td><%= f.text_field :ticket_number, class: "usa-input" %></td>

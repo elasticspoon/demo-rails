@@ -1,4 +1,8 @@
 <%= turbo_frame_tag "#{@commit_metadatum.id}_jira_tickets" do %>
+  <%= link_to "Add Ticket", 
+      new_commit_metadatum_jira_ticket_path(@commit_metadatum),
+      class: "usa-button",
+      data: { turbo_stream: true } %>
   <% if @tickets.any? %>
     <table class="usa-table width-full margin-top-1">
       <colgroup>
