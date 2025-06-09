@@ -4,7 +4,7 @@
       class: "usa-button",
       data: { turbo_stream: true } %>
   <% if @tickets.any? %>
-    <table class="usa-table width-full margin-top-1">
+    <table class="usa-table width-full margin-top-1" id="<%= "#{@commit_metadatum.id}_jira_tickets" %>">
       <colgroup>
         <col style="width: 50%">
         <col style="width: 20%">
