@@ -1,3 +1,0 @@
-<%= turbo_stream.append "#{dom_id(@commit_metadatum)}_jira_tickets" do %>
-  <%= render partial: "form", locals: { ticket: @ticket, commit_metadatum: @commit_metadatum } %>
-<% end %>

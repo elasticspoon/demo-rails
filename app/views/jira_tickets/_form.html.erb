@@ -1,11 +1,11 @@
 <tr id="<%= dom_id(ticket) %>">
-  <%= form_with(model: [commit_metadatum, ticket],
-               id: dom_id(ticket, :form),
-               data: { turbo: true }) do |f| %>
-    <td><%= f.text_field :ticket_number, class: "usa-input" %></td>
+  <td>
+    <%= form_with(model: [commit_metadatum, ticket], id: dom_id(ticket, :form), data: { turbo: true }) do |f| %>
+      <%= f.text_field :ticket_number, class: "usa-input" %>
+    <% end %>
+  </td>
     <td><%= ticket.state %></td>
     <td><%= ticket.author %></td>
-  <% end %>
   <td>
     <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button">Save</button>
     <%= link_to "Cancel", 
