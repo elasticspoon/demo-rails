@@ -20,12 +20,12 @@ class CommitService
         repo_name: repo_name
       )
       
-      # Parse and associate Jira tickets if message exists
-      if (message = commit_data.dig("commit", "message")).present?
+      # Only parse Jira tickets for new records
+      if metadata.new_record? && (message = commit_data.dig("commit", "message")).present?
         metadata.parse_jira_tickets(message)
       end
       
-      metadata.save! if metadata.changed? || metadata.jira_tickets.any?(&:new_record?)
+      metadata.save! if metadata.changed?
 
       Commit.new(
         sha: sha,
