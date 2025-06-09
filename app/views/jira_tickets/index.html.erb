@@ -21,7 +21,7 @@
       </thead>
       <tbody>
         <% @tickets.each do |ticket| %>
-          <%= render ticket %>
+          <%= render ticket, commit_metadatum: @commit_metadatum %>
         <% end %>
       </tbody>
     </table>
