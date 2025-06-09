@@ -58,16 +58,16 @@
                                 <th scope="col">Ticket</th>
                                 <th scope="col">State</th>
                                 <th scope="col">Author</th>
-                                <th scope="col">Link</th>
+                                <th scope="col"></th>
                               </tr>
                             </thead>
                             <tbody>
                               <% commit.metadata.jira_tickets.each do |ticket| %>
                                 <tr>
-                                  <td><%= ticket.ticket_number %></td>
+                                  <td><%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-link" %></td>
                                   <td>In Progress</td> <%# Hardcoded for now %>
                                   <td>Dev Team</td> <%# Hardcoded for now %>
-                                  <td><%= link_to 'View', ticket.url, target: "_blank", class: "usa-link" %></td>
+                                  <td></td>
                                 </tr>
                               <% end %>
                             </tbody>
