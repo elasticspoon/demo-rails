@@ -19,7 +19,7 @@ class CommitService
         repo_owner: repo_owner,
         repo_name: repo_name
       )
-      metadata.jira_url ||= "https://jira.example.com/ISSUE-#{sha[0..6]}" # Default dummy URL
+      metadata.parse_jira_tickets(commit_data.dig("commit", "message"))
       metadata.save! if metadata.changed?
 
       Commit.new(

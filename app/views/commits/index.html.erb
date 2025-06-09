@@ -43,8 +43,16 @@
                       <td class="font-mono-2xs"><%= commit.sha %></td>
                     </tr>
                     <tr>
-                      <td class="text-bold">Jira:</td>
-                      <td><%= link_to commit.metadata.jira_url, commit.metadata.jira_url, target: "_blank" %></td>
+                      <td class="text-bold">Jira Tickets:</td>
+                      <td>
+                        <% if commit.metadata.jira_tickets.any? %>
+                          <% commit.metadata.jira_tickets.each do |ticket| %>
+                            <%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-tag margin-right-1" %>
+                          <% end %>
+                        <% else %>
+                          None
+                        <% end %>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
