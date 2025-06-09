@@ -2,23 +2,32 @@
   <% if @tickets.any? %>
     <table class="usa-table width-full margin-top-1">
       <colgroup>
-        <col style="width: 60%">
+        <col style="width: 50%">
         <col style="width: 20%">
         <col style="width: 20%">
+        <col style="width: 10%">
       </colgroup>
       <thead>
         <tr>
           <th scope="col">Ticket</th>
           <th scope="col">State</th>
           <th scope="col">Author</th>
+          <th scope="col">Actions</th>
         </tr>
       </thead>
       <tbody>
         <% @tickets.each do |ticket| %>
-          <tr>
+          <tr id="<%= dom_id(ticket) %>">
             <td><%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-link" %></td>
             <td><%= ticket.state %></td>
             <td><%= ticket.author %></td>
+            <td>
+              <%= button_to "Delete",
+                  commit_metadatum_jira_ticket_path(@commit_metadatum, ticket),
+                  method: :delete,
+                  class: "usa-button usa-button--secondary",
+                  form: { data: { turbo_confirm: "Are you sure you want to delete this ticket?" } } %>
+            </td>
           </tr>
         <% end %>
       </tbody>
