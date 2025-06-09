@@ -1,0 +1,16 @@
+<tr id="<%= dom_id(jira_ticket) %>">
+  <td><%= link_to jira_ticket.ticket_number, jira_ticket.url, target: "_blank", class: "usa-link" %></td>
+  <td><%= jira_ticket.state %></td>
+  <td><%= jira_ticket.author %></td>
+  <td>
+    <%= button_to "Delete",
+        commit_metadatum_jira_ticket_path(@commit_metadatum, jira_ticket),
+        method: :delete,
+        class: "usa-button usa-button--secondary",
+        form: { data: { turbo_confirm: "Are you sure?" } } %>
+    <%= link_to "Edit",
+        edit_commit_metadatum_jira_ticket_path(@commit_metadatum, jira_ticket),
+        class: "usa-button",
+        data: { turbo_stream: true } %>
+  </td>
+</tr>
