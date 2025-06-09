@@ -45,40 +45,39 @@
                     <tr>
                       <td class="text-bold">Jira Tickets:</td>
                       <td>
-                        <% if commit.metadata.jira_tickets.any? %>
-                          <table class="usa-table width-full margin-top-1">
-                            <colgroup>
-                              <col style="width: 30%">
-                              <col style="width: 30%">
-                              <col style="width: 20%">
-                              <col style="width: 20%">
-                            </colgroup>
-                            <thead>
-                              <tr>
-                                <th scope="col">Ticket</th>
-                                <th scope="col">State</th>
-                                <th scope="col">Author</th>
-                                <th scope="col"></th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <% commit.metadata.jira_tickets.each do |ticket| %>
-                                <tr>
-                                  <td><%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-link" %></td>
-                                  <td>In Progress</td> <%# Hardcoded for now %>
-                                  <td>Dev Team</td> <%# Hardcoded for now %>
-                                  <td></td>
-                                </tr>
-                              <% end %>
-                            </tbody>
-                          </table>
-                        <% else %>
-                          None
-                        <% end %>
                       </td>
                     </tr>
                   </tbody>
                 </table>
+                <div class="margin-top-3">
+                  <% if commit.metadata.jira_tickets.any? %>
+                    <table class="usa-table width-full margin-top-1">
+                      <colgroup>
+                        <col style="width: 60%">
+                        <col style="width: 20%">
+                        <col style="width: 20%">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Ticket</th>
+                          <th scope="col">State</th>
+                          <th scope="col">Author</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <% commit.metadata.jira_tickets.each do |ticket| %>
+                          <tr>
+                            <td><%= link_to ticket.ticket_number, ticket.url, target: "_blank", class: "usa-link" %></td>
+                            <td>In Progress</td> <%# Hardcoded for now %>
+                            <td>Dev Team</td> <%# Hardcoded for now %>
+                          </tr>
+                        <% end %>
+                      </tbody>
+                    </table>
+                  <% else %>
+                    None
+                  <% end %>
+                </div>
                 <div class="margin-top-3">
                   <% if commit.metadata.comments.any? %>
                     <table class="usa-table width-full margin-top-2">
