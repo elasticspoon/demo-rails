@@ -1,15 +1,16 @@
 <tr id="<%= dom_id(ticket) %>">
   <%= form_with(model: [commit_metadatum, ticket],
+               id: dom_id(ticket, :form),
                data: { turbo: true }) do |f| %>
     <td><%= f.text_field :ticket_number, class: "usa-input" %></td>
     <td><%= ticket.state %></td>
     <td><%= ticket.author %></td>
-    <td>
-      <%= f.submit "Save", class: "usa-button" %>
-      <%= link_to "Cancel", 
-          commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
-          class: "usa-button usa-button--secondary",
-          data: { turbo_stream: true } %>
-    </td>
   <% end %>
+  <td>
+    <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button">Save</button>
+    <%= link_to "Cancel", 
+        commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
+        class: "usa-button usa-button--secondary",
+        data: { turbo_stream: true } %>
+  </td>
 </tr>
