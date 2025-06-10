@@ -1,0 +1,4 @@
+<%= turbo_stream.replace "commit_#{@metadata.id}_new_comment" do %>
+  <%= render partial: "commit_comments/form", 
+             locals: { metadata: @metadata, comment: @comment } %>
+<% end %>
