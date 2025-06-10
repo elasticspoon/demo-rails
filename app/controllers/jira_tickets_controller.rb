@@ -15,13 +15,14 @@ class JiraTicketsController < ApplicationController
   end
 
   def update
-    if @ticket.update(ticket_params)
-      respond_to do |format|
+    respond_to do |format|
+      if @ticket.update(ticket_params)
         format.turbo_stream
         format.html { redirect_to commit_metadatum_jira_tickets_path(@commit_metadatum) }
+      else
+        format.turbo_stream { render :update, status: :unprocessable_entity }
+        format.html { render :edit, status: :unprocessable_entity }
       end
-    else
-      render :edit, status: :unprocessable_entity
     end
   end
 
@@ -53,13 +54,14 @@ class JiraTicketsController < ApplicationController
   def create
     @ticket = @commit_metadatum.jira_tickets.build(ticket_params)
 
-    if @ticket.save
-      respond_to do |format|
+    respond_to do |format|
+      if @ticket.save
         format.turbo_stream
         format.html { redirect_to commit_metadatum_jira_tickets_path(@commit_metadatum) }
+      else
+        format.turbo_stream { render :create, status: :unprocessable_entity }
+        format.html { render :new, status: :unprocessable_entity }
       end
-    else
-      render :new, status: :unprocessable_entity
     end
   end
 
