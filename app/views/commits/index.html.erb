@@ -70,13 +70,18 @@
                           <th scope="col">Posted</th>
                         </tr>
                       </thead>
-                      <tbody id="<%= "commit_#{commit.metadata.id}_comments" %>">
+                      <tbody id="commit_<%= commit.metadata.id %>_comments">
                         <%= render partial: "commit_comments/comment", collection: commit.metadata.comments %>
                       </tbody>
                     </table>
                   <% end %>
 
-                  <%= render "commit_comments/form", metadata: commit.metadata %>
+                  <div id="commit_<%= commit.metadata.id %>_new_comment">
+                    <%= link_to "Add Comment", 
+                        new_commit_metadatum_commit_comment_path(commit.metadata),
+                        class: "usa-button",
+                        data: { turbo_stream: true } %>
+                  </div>
                 </div>
               </div>
             </div>
