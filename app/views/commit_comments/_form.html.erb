@@ -1,18 +1,20 @@
-<%= form_with model: [@metadata, @comment],
-              url: commit_metadatum_commit_comments_path(@metadata),
-              class: "margin-top-2",
-              data: { turbo_frame: "_top" } do |f| %>
-  <div class="usa-form-group">
-    <%= f.label :content, "Add a comment", class: "usa-label" %>
-    <%= f.text_area :content, class: "usa-textarea #{'usa-input--error' if @comment.errors[:content].any?}", rows: 3 %>
-    <% if @comment.errors[:content].any? %>
-      <span class="usa-error-message">
-        <%= @comment.errors[:content].join(', ') %>
-      </span>
-    <% end %>
-  </div>
-  <%= f.submit "Post Comment", class: "usa-button" %>
-  <%= link_to "Cancel", 
-      commit_metadatum_commit_comments_path(@metadata),
-      class: "usa-button usa-button--secondary" %>
-<% end %>
+<div id="commit_<%= @metadata.id %>_new_comment">
+  <%= form_with model: [@metadata, @comment],
+                url: commit_metadatum_commit_comments_path(@metadata),
+                class: "margin-top-2",
+                data: { turbo_frame: "_top" } do |f| %>
+    <div class="usa-form-group">
+      <%= f.label :content, "Add a comment", class: "usa-label" %>
+      <%= f.text_area :content, class: "usa-textarea #{'usa-input--error' if @comment.errors[:content].any?}", rows: 3 %>
+      <% if @comment.errors[:content].any? %>
+        <span class="usa-error-message">
+          <%= @comment.errors[:content].join(', ') %>
+        </span>
+      <% end %>
+    </div>
+    <%= f.submit "Post Comment", class: "usa-button" %>
+    <%= link_to "Cancel", 
+        commit_metadatum_commit_comments_path(@metadata),
+        class: "usa-button usa-button--secondary" %>
+  <% end %>
+</div>

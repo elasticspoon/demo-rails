@@ -58,7 +58,7 @@
                 <div class="margin-top-3">
                   <div id="commit_<%= commit.metadata.id %>_comments_container">
                     <% if commit.metadata.comments.any? %>
-                      <table class="usa-table width-full margin-top-2" id="commit_<%= commit.metadata.id %>_comments_table">
+                      <table class="usa-table width-full margin-top-2" >
                         <colgroup>
                           <col style="width: 60%">
                           <col style="width: 20%">
@@ -71,7 +71,7 @@
                             <th scope="col">Posted</th>
                           </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="commit_<%= commit.metadata.id %>_comments_table">
                           <%= render partial: "commit_comments/comment", collection: commit.metadata.comments %>
                         </tbody>
                       </table>

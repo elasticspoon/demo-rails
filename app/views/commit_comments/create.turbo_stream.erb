@@ -4,18 +4,9 @@
                locals: { metadata: @metadata, comment: @comment } %>
   <% end %>
 <% else %>
-  <%# Always restore the Add Comment button %>
-  <%= turbo_stream.replace "commit_#{@metadata.id}_new_comment" do %>
-    <%= link_to "Add Comment", 
-        new_commit_metadatum_commit_comment_path(@metadata),
-        class: "usa-button",
-        data: { turbo_stream: true } %>
-  <% end %>
-
-  <%# Handle table creation/update %>
-  <% if @metadata.comments.count == 1 %>
-    <%= turbo_stream.replace "commit_#{@metadata.id}_comments_container" do %>
-      <table class="usa-table width-full margin-top-2" id="commit_#{@metadata.id}_comments_table">
+  <% if @metadata.comments.one? %>
+    <%= turbo_stream.append "commit_#{@metadata.id}_comments_container" do %>
+      <table class="usa-table width-full margin-top-2">
         <colgroup>
           <col style="width: 60%">
           <col style="width: 20%">
@@ -28,14 +19,22 @@
             <th scope="col">Posted</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="commit_<%= @metadata.id %>_comments_table">
           <%= render partial: "commit_comments/comment", locals: { comment: @comment } %>
         </tbody>
       </table>
     <% end %>
   <% else %>
-    <%= turbo_stream.append "commit_#{@metadata.id}_comments_table tbody" do %>
+    <%= turbo_stream.append "commit_#{@metadata.id}_comments_table" do %>
       <%= render partial: "commit_comments/comment", locals: { comment: @comment } %>
     <% end %>
+  <% end %>
+  <%= turbo_stream.replace "commit_#{@metadata.id}_new_comment" do %>
+    <div id="commit_<%= @metadata.id %>_new_comment">
+    <%= link_to "Add Comment", 
+        new_commit_metadatum_commit_comment_path(@metadata),
+        class: "usa-button",
+        data: { turbo_stream: true } %>
+    </div>
   <% end %>
 <% end %>
