@@ -11,8 +11,29 @@
         data: { turbo_stream: true } %>
   <% end %>
 
-  <%= turbo_stream.append "commit_#{@metadata.id}_comments" do %>
-    <%= render partial: "commit_comments/comment", 
-               locals: { comment: @comment } %>
+  <% if @metadata.comments.count == 1 %>
+    <%= turbo_stream.replace "commit_#{@metadata.id}_comments_container" do %>
+      <table class="usa-table width-full margin-top-2" id="commit_#{@metadata.id}_comments_table">
+        <colgroup>
+          <col style="width: 60%">
+          <col style="width: 20%">
+          <col style="width: 20%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Comment</th>
+            <th scope="col">Author</th>
+            <th scope="col">Posted</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%= render partial: "commit_comments/comment", locals: { comment: @comment } %>
+        </tbody>
+      </table>
+    <% end %>
+  <% else %>
+    <%= turbo_stream.append "commit_#{@metadata.id}_comments_table tbody" do %>
+      <%= render partial: "commit_comments/comment", locals: { comment: @comment } %>
+    <% end %>
   <% end %>
 <% end %>
