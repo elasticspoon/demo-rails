@@ -1,3 +1,8 @@
+<%= turbo_stream.replace "commit_#{@metadata.id}_new_comment" do %>
+  <%= render partial: "commit_comments/form", 
+             locals: { metadata: @metadata, comment: @comment } %>
+<% end %>
+
 <% if @metadata.comments.none? %>
   <%= turbo_stream.append "commit_#{@metadata.id}_comments_container" do %>
     <table class="usa-table width-full margin-top-2" id="commit_#{@metadata.id}_comments_table">
@@ -17,9 +22,4 @@
       </tbody>
     </table>
   <% end %>
-<% end %>
-
-<%= turbo_stream.replace "commit_#{@metadata.id}_new_comment" do %>
-  <%= render partial: "commit_comments/form", 
-             locals: { metadata: @metadata, comment: @comment } %>
 <% end %>

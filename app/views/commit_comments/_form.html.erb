@@ -1,6 +1,7 @@
 <%= form_with model: [@metadata, @comment],
               url: commit_metadatum_commit_comments_path(@metadata),
-              class: "margin-top-2" do |f| %>
+              class: "margin-top-2",
+              data: { turbo_frame: "_top" } do |f| %>
   <div class="usa-form-group">
     <%= f.label :content, "Add a comment", class: "usa-label" %>
     <%= f.text_area :content, class: "usa-textarea #{'usa-input--error' if @comment.errors[:content].any?}", rows: 3 %>
