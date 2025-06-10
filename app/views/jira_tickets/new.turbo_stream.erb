@@ -1,5 +1,7 @@
 <%= turbo_stream.replace "#{@commit_metadatum.id}_add_ticket_button" do %>
-  <%# Empty replacement to remove the button %>
+  <div id="<%= @commit_metadatum.id %>_add_ticket_button">
+    <%# Empty replacement to remove the button %>
+  </div>
 <% end %>
 
 <% if @commit_metadatum.jira_tickets.none? %>
