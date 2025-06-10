@@ -1,18 +1,16 @@
 require 'rails_helper'
 
 RSpec.describe 'Jira Tickets', type: :system do
-  let(:commit) { create(:commit) }
-  let(:metadata) { create(:commit_metadatum, commit: commit) }
+  let(:metadata) { CommitMetadatum.first }
 
   before do
-    driven_by(:selenium_chrome_headless)
     visit commits_path
   end
 
   describe 'adding tickets' do
     context 'with valid input' do
       it 'adds the ticket to the table' do
-        within("#commit_#{metadata.id}_jira_tickets") do
+        within("##{metadata.id}_jira_tickets") do
           click_link 'Add Ticket'
         end
 
@@ -62,10 +60,11 @@ RSpec.describe 'Jira Tickets', type: :system do
   end
 
   describe 'editing tickets' do
-    let!(:ticket) { create(:jira_ticket, commit_metadata: metadata, ticket_number: 'OLD-123') }
+    let(:ticket) { JiraTicket.create(commit_metadata: metadata, ticket_number: 'OLD-123') }
 
     before do
       visit commits_path
+      ticket
     end
 
     it 'updates the ticket' do
@@ -98,7 +97,7 @@ RSpec.describe 'Jira Tickets', type: :system do
   end
 
   describe 'deleting tickets' do
-    let!(:ticket) { create(:jira_ticket, commit_metadata: metadata) }
+    let(:ticket) { JiraTicket.create(commit_metadata: metadata, ticket_number: 'OLD-123') }
 
     before do
       visit commits_path
@@ -118,11 +117,9 @@ RSpec.describe 'Jira Tickets', type: :system do
 
     it 'removes the table when last ticket is deleted' do
       within("##{dom_id(ticket)}") do
-        click_button 'Delete'
-      end
-
-      accept_confirm do
-        # Confirm deletion
+        accept_confirm do
+          click_button 'Delete'
+        end
       end
 
       expect(page).not_to have_css("##{metadata.id}_jira_tickets_table")
