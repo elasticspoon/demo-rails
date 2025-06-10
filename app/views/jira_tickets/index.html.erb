@@ -24,7 +24,7 @@
       </table>
     <% end %>
   </div>
-  <div class="margin-top-2">
+  <div id="<%= @commit_metadatum.id %>_add_ticket_button" class="margin-top-2">
     <%= link_to "Add Ticket", 
         new_commit_metadatum_jira_ticket_path(@commit_metadatum),
         class: "usa-button",

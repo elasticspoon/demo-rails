@@ -15,7 +15,7 @@
     <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button">Save</button>
     <% if ticket.id %>
       <%= link_to "Cancel", 
-          commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
+          commit_metadatum_jira_tickets_path(commit_metadatum),
           class: "usa-button usa-button--secondary",
           data: { turbo_stream: true } %>
     <% end %>

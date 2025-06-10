@@ -6,4 +6,13 @@
   <%= turbo_stream.replace dom_id(JiraTicket.new) do %>
     <%= render partial: "jira_ticket", locals: { jira_ticket: @ticket, commit_metadatum: @commit_metadatum } %>
   <% end %>
+
+  <%= turbo_stream.replace "#{@commit_metadatum.id}_add_ticket_button" do %>
+    <div id="<%= @commit_metadatum.id %>_add_ticket_button" class="margin-top-2">
+      <%= link_to "Add Ticket", 
+          new_commit_metadatum_jira_ticket_path(@commit_metadatum),
+          class: "usa-button",
+          data: { turbo_stream: true } %>
+    </div>
+  <% end %>
 <% end %>
