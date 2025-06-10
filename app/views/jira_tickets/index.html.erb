@@ -1,9 +1,5 @@
 <%= turbo_frame_tag "#{@commit_metadatum.id}_jira_tickets" do %>
-  <%= link_to "Add Ticket", 
-      new_commit_metadatum_jira_ticket_path(@commit_metadatum),
-      class: "usa-button",
-      data: { turbo_stream: true } %>
-  <div id="<%= @commit_metadatum.id %>_jira_tickets_container"></div>
+  <div id="<%= @commit_metadatum.id %>_jira_tickets_container">
     <% if @tickets.any? %>
       <table class="usa-table width-full margin-top-1" id="<%= @commit_metadatum.id %>_jira_tickets_table">
         <colgroup>
@@ -27,5 +23,11 @@
         </tbody>
       </table>
     <% end %>
+  </div>
+  <div class="margin-top-2">
+    <%= link_to "Add Ticket", 
+        new_commit_metadatum_jira_ticket_path(@commit_metadatum),
+        class: "usa-button",
+        data: { turbo_stream: true } %>
   </div>
 <% end %>
