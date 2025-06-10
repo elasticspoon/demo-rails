@@ -1,3 +1,25 @@
-<%= turbo_stream.replace dom_id(@ticket) do %>
-  <%= render partial: "jira_ticket", locals: { jira_ticket: @ticket, commit_metadatum: @commit_metadatum } %>
+<% if @commit_metadatum.jira_tickets.none? %>
+  <%= turbo_stream.append "#{@commit_metadatum.id}_jira_tickets_container" do %>
+    <table class="usa-table width-full margin-top-1" id="<%= @commit_metadatum.id %>_jira_tickets_table">
+      <colgroup>
+        <col style="width: 50%">
+        <col style="width: 20%">
+        <col style="width: 20%">
+        <col style="width: 10%">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Ticket</th>
+          <th scope="col">State</th>
+          <th scope="col">Author</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  <% end %>
+<% end %>
+<%= turbo_stream.append "#{@commit_metadatum.id}_jira_tickets_table" do %>
+  <%= render partial: "form", locals: { ticket: @ticket, commit_metadatum: @commit_metadatum } %>
 <% end %>

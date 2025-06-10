@@ -8,9 +8,11 @@
     <td><%= ticket.author %></td>
   <td>
     <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button">Save</button>
-    <%= link_to "Cancel", 
-        commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
-        class: "usa-button usa-button--secondary",
-        data: { turbo_stream: true } %>
+    <% if ticket.id %>
+      <%= link_to "Cancel", 
+          commit_metadatum_jira_ticket_path(commit_metadatum, ticket),
+          class: "usa-button usa-button--secondary",
+          data: { turbo_stream: true } %>
+    <% end %>
   </td>
 </tr>

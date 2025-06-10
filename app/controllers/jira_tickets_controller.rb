@@ -1,5 +1,5 @@
 class JiraTicketsController < ApplicationController
-  before_action :set_ticket, except: [ :index, :new ]
+  before_action :set_ticket, except: [ :index, :new, :create ]
   before_action :set_commit_metadatum
 
   def index
