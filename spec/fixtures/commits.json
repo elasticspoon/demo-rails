@@ -1,0 +1,2537 @@
+[
+  {
+    "sha": "6bb54ac227c1f4ee693db4f778be403675188a07",
+    "node_id": "C_kwDODs5nkdoAKDZiYjU0YWMyMjdjMWY0ZWU2OTNkYjRmNzc4YmU0MDM2NzUxODhhMDc",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-06-05T14:23:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T14:23:38Z"
+      },
+      "message": "Merge pull request #6412 from rubyforgood/dependabot/bundler/parallel_tests-5.3.0\n\nbuild(deps-dev): bump parallel_tests from 5.2.0 to 5.3.0",
+      "tree": {
+        "sha": "80c60e7ccda2458c409373c67a55103c92fd474b",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/80c60e7ccda2458c409373c67a55103c92fd474b"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/6bb54ac227c1f4ee693db4f778be403675188a07",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQahqCRC1aQ7uu5UhlAAA5kIQAD2xyKsm6OFEvMO0wd5BufAh\nMUWBoQl5Kn8YTLzz6ZrQ9hkTxwpduh9FMyc3RCKStyTNSpkI5l1xQCgAEP7NtW1V\n4Ere/3826yOW4SHkJfCMLGZl0Y/BZ7hL29ke3lvLgI27IfOpLnuwsnX/yRlcnUwO\nvaHH95gJcogMW1Oz0upl3KXpwggIwkNm3MsqQBrtwWu/dVQrAYbY1FIqGkCu6Vi2\nGvvhPFn1dh5hKBOx+ZyMKBZvR1vbsA2pBAK4h10IsCo15aS/cciGJ3v4/XSQpfg6\n/bPsM0StYmHsvHWmzsGGSXMsv6wT9rV+Gq59J1sca0RrH7ghdEUBvi0e6Hzb7Hkv\nBevyTbOEQ9uP6nRtsYAY7BJVBtM8ac35w0YkrjB2EaVP/Era+4mSaOu4wfdG3j4F\nzPyF0uojSQOmm+ms2UneKa1XUZOh/Dj3Bn9RJawM5+Geg6nXf6gjnk6uaqQBgcE/\n59PXlOZSEKWuUaGQITsXgxX/NYEqqgdvAi+8A0bR9KimKIrmwsPdAWR+kwthZQCs\npTW/hMoHP46obDvVk4yn/qi1qebnGSzE6L+BtiPjlSYL0tKYZc0bkErQ6mpGkYM6\nfHu9EiK+b0z7wNvuJGoJrO6I/fs1YlVACSFPhEU61WU3bbENsszCufqFD+O3U5vA\nJjF8ST4oxTaVMqqnbjaX\n=RlKs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 80c60e7ccda2458c409373c67a55103c92fd474b\nparent 05be690d02b4285c681c62e88cac6207cb177144\nparent 03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb\nauthor compwron <compiledwrong@gmail.com> 1749133418 -0700\ncommitter GitHub <noreply@github.com> 1749133418 -0700\n\nMerge pull request #6412 from rubyforgood/dependabot/bundler/parallel_tests-5.3.0\n\nbuild(deps-dev): bump parallel_tests from 5.2.0 to 5.3.0",
+        "verified_at": "2025-06-05T14:23:43Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/6bb54ac227c1f4ee693db4f778be403675188a07",
+    "html_url": "https://github.com/rubyforgood/casa/commit/6bb54ac227c1f4ee693db4f778be403675188a07",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/6bb54ac227c1f4ee693db4f778be403675188a07/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05be690d02b4285c681c62e88cac6207cb177144",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/05be690d02b4285c681c62e88cac6207cb177144",
+        "html_url": "https://github.com/rubyforgood/casa/commit/05be690d02b4285c681c62e88cac6207cb177144"
+      },
+      {
+        "sha": "03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+        "html_url": "https://github.com/rubyforgood/casa/commit/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb"
+      }
+    ]
+  },
+  {
+    "sha": "05be690d02b4285c681c62e88cac6207cb177144",
+    "node_id": "C_kwDODs5nkdoAKDA1YmU2OTBkMDJiNDI4NWM2ODFjNjJlODhjYWM2MjA3Y2IxNzcxNDQ",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-06-05T14:23:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T14:23:20Z"
+      },
+      "message": "Merge pull request #6414 from rubyforgood/dependabot/npm_and_yarn/babel/core-7.27.4\n\nbuild(deps): bump @babel/core from 7.27.1 to 7.27.4",
+      "tree": {
+        "sha": "9f159139722e5012f9088470073b7af51afab81f",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/9f159139722e5012f9088470073b7af51afab81f"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/05be690d02b4285c681c62e88cac6207cb177144",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQahYCRC1aQ7uu5UhlAAA/F8QAIrxLG1F8yxD0gdoreGJOoY9\nKxxapnO/KvFEETQk/HzFNHWiIJGqj7pw/GHiAwXOPutVCa4+N7BATzye2pbRmuMp\n8TCOZKOn1m7K2BN8Z5CH++QY70DJRgFyXpUySi2D9bKn7WP6OOBwRINRx1/uyD06\nH/kzbr/okRSgK7ENaSfVECohMD2Bn9kSkOVzIoIhZ9ZWJV0wBSGUNReMQ0ChulZS\nXoYHo1N4qVuvPCma7o+1XcUBiYR4LC2aDAq6xEZ18q6Y1N1dtZkmydZ1rsPuIBBT\nb7vSLUbiiLB1ZpTS7SSMNBT2ABS4eSTI1iOiaqg98JL3pcpK/EUojTYTdoI+6nd0\nWL/z4ute8K2TbLN7pf4CuOw47b9dZw9RQ0QqVhfVzci+RqN06BPjNpvpUU/3kwpA\nrme75vbZpvCpZXyCt0uuaK9G/Q738cjBTs87lyXs1WSjSXJLYs6mh6dUuF0xmHJD\n627wF9LP98/If8461qhNq8mPQnz+H4SiGL3ExluheMZ8JoT9ElIfJ4IvIWBUcI7W\nzhpGN79EWKAIoENxieKze5FK9qBI+p/Uuw1zQGYLIC/pKj7qMET0oR0jk9SE7ToZ\nd6qqSzqjKvBjghAVvFsmgvRnQormoo8E8YM/JdYvHSyFJamjYeiQfMFWXKwL+Jpm\n8cVHGwRXAub369NS3tpa\n=Q19K\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9f159139722e5012f9088470073b7af51afab81f\nparent ae83c9c596aaf1e7b8726ee1a784b1ef613c9011\nparent 19f432ae5caa71613ad757d52a2293db1b420a5c\nauthor compwron <compiledwrong@gmail.com> 1749133400 -0700\ncommitter GitHub <noreply@github.com> 1749133400 -0700\n\nMerge pull request #6414 from rubyforgood/dependabot/npm_and_yarn/babel/core-7.27.4\n\nbuild(deps): bump @babel/core from 7.27.1 to 7.27.4",
+        "verified_at": "2025-06-05T14:23:25Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/05be690d02b4285c681c62e88cac6207cb177144",
+    "html_url": "https://github.com/rubyforgood/casa/commit/05be690d02b4285c681c62e88cac6207cb177144",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/05be690d02b4285c681c62e88cac6207cb177144/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011"
+      },
+      {
+        "sha": "19f432ae5caa71613ad757d52a2293db1b420a5c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/19f432ae5caa71613ad757d52a2293db1b420a5c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/19f432ae5caa71613ad757d52a2293db1b420a5c"
+      }
+    ]
+  },
+  {
+    "sha": "ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+    "node_id": "C_kwDODs5nkdoAKGFlODNjOWM1OTZhYWYxZTdiODcyNmVlMWE3ODRiMWVmNjEzYzkwMTE",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-06-05T14:23:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T14:23:05Z"
+      },
+      "message": "Merge pull request #6415 from rubyforgood/dependabot/bundler/oj-3.16.11\n\nbuild(deps): bump oj from 3.16.10 to 3.16.11",
+      "tree": {
+        "sha": "ab3b5b5b8d01238b070769fd896583ffe489290e",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/ab3b5b5b8d01238b070769fd896583ffe489290e"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQahJCRC1aQ7uu5UhlAAACCkQAKXT7aucypCfpYQu74+oirCO\nhDTKqSlXbM8KZVXE5kCifnQnrFupdRlPUgg6tsSJTg3mrqy6E0Bi8VmcC5utMaCV\nLu4DimSjGwkViqU2j027fCFHAqvdxD8fN4QfTCMyE137qjn+9J7y4F4fMLJ9SbIH\nU7EZn0JK8+9V+hXn7N0rWqawg6qBA8mjy3aPWRgXge1SAZj5oDaAEKfXm250oen3\n3BjJBfqNXW8RAlTqw+go8neMzqd4SlRBgGK0PFxVo1Gomdco5anQ28mj8gn+y1ct\nsT0aJHKUFaFUmuJmU7qTUFIaoz5Qp9TVaPyOemLEmvnBPYC2vdhdtrD30drJUmt3\nJMIkerUTAT/jNTNVRqzWuK/euorad8T4US1tMrgfQ818n+vyMVlisLnMG4c9ALDI\nD0+QAPv9/ckzzPNXQNIJNyrnu/um4o9e1PfLZJJSBBTWRVzwoav8PeZxfCd/035y\nmtWTjih7mKSvpYocoPk6cRyQ8fA72W8RouvmUDUk1xyKgsOf7i41AGx42jIMrSFE\nLKKkYVVcEuFyNE+KXfJfewlgXrlcubA4pZlt0+lkRTyGACq9HL9IVxNjO74iBYcx\nEl8DvtN7E6A1dsVvVuETO72LWtMw9JFBx0Ou+gQu3pU74F4D7Z+ED09sRDAhVQX0\nyx2Eihl2bRE2R+nCwZsr\n=cvg6\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ab3b5b5b8d01238b070769fd896583ffe489290e\nparent a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7\nparent ed747860e6bd9e065c5e25cdb486ef976079d3af\nauthor compwron <compiledwrong@gmail.com> 1749133385 -0700\ncommitter GitHub <noreply@github.com> 1749133385 -0700\n\nMerge pull request #6415 from rubyforgood/dependabot/bundler/oj-3.16.11\n\nbuild(deps): bump oj from 3.16.10 to 3.16.11",
+        "verified_at": "2025-06-05T14:23:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+    "html_url": "https://github.com/rubyforgood/casa/commit/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/ae83c9c596aaf1e7b8726ee1a784b1ef613c9011/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+        "html_url": "https://github.com/rubyforgood/casa/commit/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7"
+      },
+      {
+        "sha": "ed747860e6bd9e065c5e25cdb486ef976079d3af",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ed747860e6bd9e065c5e25cdb486ef976079d3af",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ed747860e6bd9e065c5e25cdb486ef976079d3af"
+      }
+    ]
+  },
+  {
+    "sha": "a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+    "node_id": "C_kwDODs5nkdoAKGE1NjYyMTAyZDY0ZWE1ZWI2NWQ4ZGZjOGM3M2Q3YmE5NTA2NWE5ZTc",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-06-05T14:22:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T14:22:50Z"
+      },
+      "message": "Merge pull request #6407 from nizam12khan/feature/6404-add-trim-name-spec\n\nAdd spec for trim_name method in CustomOrgLink model",
+      "tree": {
+        "sha": "5ef3acba48e3e25536707f2a0614d8e3945e8ce5",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/5ef3acba48e3e25536707f2a0614d8e3945e8ce5"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQag6CRC1aQ7uu5UhlAAAt64QAHVU2M3W4S8XKl1Ny8Anb1h1\niAI1iqTdRI95M8CiI7HQnFpoZ51JiXiDvqAccy4T1ESrQSf5qoiN1XL++gLGiWdo\nYS/Zil4lkJ7nv817eGRYe2YevZvHYG6+u9R3CUzY3sEyfnCV2cc1rRsnj5iwvEi7\nTsOIB3vPRnvnhR/6Jayel5o4uGAm4wDJOeK7tbuU5YxN4PmKMYlJjkOnjML4CyxO\nonL9YDtmzKpKB8+kMvP5538KlCBqjZ2vFJLjpbintx+zCVReQEpQq9khMjOpAgtb\nMKvNIUOBJUr2cZk+gwCZj6PJBm+KGcirRG2BdWxmK2S1TI8QdAOhK7kwHiaElXkY\n+qW3otjL7m/9d877Xf1kSRQeEcBWHmUuRZ3vXY0DxlSVVQJlhvQsMu1hyMC9GFlz\nvMtQ7BVDDcvAZCNV+/TPhDJXpqV2PFSi2VToGe+GZ2wCeGQjR03OxvcSCvy9zery\n2uREvsLsdj0xMDCz2s2EBL5Q+C3AD8hJVY59VqFRzC746x0i+cOkkb5Zt3RpSGsz\n16smSP0AGV24hScrNMdYfhkV2vl4zxfr185mpRteV9F7gL0ITQMKnLOP7f2Pz1sG\nL+aGP1LVaZeJv6Jg5PDUuclwTuxawAguxOoQwpLzxs39koBX6bmOoO1KHWY+5e/j\nJZ/2m2dUiHOc/H1XVXwK\n=+wAt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5ef3acba48e3e25536707f2a0614d8e3945e8ce5\nparent 27afdcf160dc5a942ec899d10139e988a9ba83bb\nparent 1e35b0fe087db6c036f0d8e3d80f85f7791081c4\nauthor compwron <compiledwrong@gmail.com> 1749133370 -0700\ncommitter GitHub <noreply@github.com> 1749133370 -0700\n\nMerge pull request #6407 from nizam12khan/feature/6404-add-trim-name-spec\n\nAdd spec for trim_name method in CustomOrgLink model ",
+        "verified_at": "2025-06-05T14:23:01Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+    "html_url": "https://github.com/rubyforgood/casa/commit/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/a5662102d64ea5eb65d8dfc8c73d7ba95065a9e7/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "27afdcf160dc5a942ec899d10139e988a9ba83bb",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/27afdcf160dc5a942ec899d10139e988a9ba83bb",
+        "html_url": "https://github.com/rubyforgood/casa/commit/27afdcf160dc5a942ec899d10139e988a9ba83bb"
+      },
+      {
+        "sha": "1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+        "html_url": "https://github.com/rubyforgood/casa/commit/1e35b0fe087db6c036f0d8e3d80f85f7791081c4"
+      }
+    ]
+  },
+  {
+    "sha": "27afdcf160dc5a942ec899d10139e988a9ba83bb",
+    "node_id": "C_kwDODs5nkdoAKDI3YWZkY2YxNjBkYzVhOTQyZWM4OTlkMTAxMzllOTg4YTliYTgzYmI",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-06-05T14:22:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T14:22:11Z"
+      },
+      "message": "Merge pull request #6416 from rubyforgood/dependabot/bundler/rack-3.1.16\n\nbuild(deps): bump rack from 3.1.15 to 3.1.16",
+      "tree": {
+        "sha": "880c8a76f81bfa804a007a86f7644d1ea060a926",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/880c8a76f81bfa804a007a86f7644d1ea060a926"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/27afdcf160dc5a942ec899d10139e988a9ba83bb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQagTCRC1aQ7uu5UhlAAAHVEQAJD6WRJW+T0A8WdI8SjoGFmc\nPEFJuIkkzSMB85uzwbxSruvIUkj7USARiNUfY5qzfLacrSZR/1SWaIyrkzXB/ehK\n8Dvn6SdQjayoMePfKmYjMz73iLjis+scPS0HdnpoLAq0zaLvkpJIx28aaQG+sdku\na/B0RCkx8yfLzSOoINkYqLohhkhIhNm9JScNQc90tNJh2b5zKphPQF2lD8/92Kuy\niyMLQmk0+7OSqA+cYMA/7Em97Qk+S8GoCg889ZJeMrbE6Vq1RRmsIzqfNiO2OFam\nAL9WWR/CuaMO8nh+k78KdEq8UsRaiiUVpcnx8v+WyFPb2ONNozMAr9EA/ryMdWO3\nQ/i+qA/UzH7aoatwZknnSCn7U8/FZqZea8gbb4zAsx/nQAzH1eX6FqUoA9bPt7ZX\nUEZQe0rE+vtkl4Befdnbm9XxFQQ8pLP5wbx0iGE3XNddIlUXZRGWF/in92/+onaw\nZ5//Vnz5yjIUT9Z3F6/sAUzwYdiX+nxR8AjARMW/12SYZU5gil2u+D54n3F6Gyqx\nsrw6SVcxBvw7cnFIljglJVQDKN4msKQce4WC0T6nTd5cf3k9+Nw/MFVeBoS7QDf5\nB0LkLOv+4bKDCqyLlmLusmGgOj3GJNRxBDblN59k8rGleMehQZZz+Gb+QdGC4v1B\nSPtOuZoCrXQkXMcdB4+x\n=EsAA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 880c8a76f81bfa804a007a86f7644d1ea060a926\nparent e65704188919033d2f2acc5a8c58b27f10cd4b1c\nparent fbd3b8a1b4409c50b6a0944dc57e7191c5d60356\nauthor compwron <compiledwrong@gmail.com> 1749133331 -0700\ncommitter GitHub <noreply@github.com> 1749133331 -0700\n\nMerge pull request #6416 from rubyforgood/dependabot/bundler/rack-3.1.16\n\nbuild(deps): bump rack from 3.1.15 to 3.1.16",
+        "verified_at": "2025-06-05T14:22:20Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/27afdcf160dc5a942ec899d10139e988a9ba83bb",
+    "html_url": "https://github.com/rubyforgood/casa/commit/27afdcf160dc5a942ec899d10139e988a9ba83bb",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/27afdcf160dc5a942ec899d10139e988a9ba83bb/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      },
+      {
+        "sha": "fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+        "html_url": "https://github.com/rubyforgood/casa/commit/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356"
+      }
+    ]
+  },
+  {
+    "sha": "fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+    "node_id": "C_kwDODs5nkdoAKGZiZDNiOGExYjQ0MDljNTBiNmEwOTQ0ZGM1N2U3MTkxYzVkNjAzNTY",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-06-05T05:30:17Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T05:30:17Z"
+      },
+      "message": "build(deps): bump rack from 3.1.15 to 3.1.16\n\nBumps [rack](https://github.com/rack/rack) from 3.1.15 to 3.1.16.\n- [Release notes](https://github.com/rack/rack/releases)\n- [Changelog](https://github.com/rack/rack/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/rack/rack/compare/v3.1.15...v3.1.16)\n\n---\nupdated-dependencies:\n- dependency-name: rack\n  dependency-version: 3.1.16\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "880c8a76f81bfa804a007a86f7644d1ea060a926",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/880c8a76f81bfa804a007a86f7644d1ea060a926"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQStpCRC1aQ7uu5UhlAAABtMQAFOGV/eiDesreY5PrJP32KgE\n2UWzReTbAkZ0RAfs4nTNssl5eT8HeiCp3cDqZAJhNrrDed71LV42ATVYCR6fNdKV\nzlrAG5yE3kY7xuYG0OeJ5KFzoQzi3DYLPcPOLrfNFf0YSAMuLuIikIuK2hkPNCSi\nyQwfWC+UF8UCxWW0LGDX3VfWi3R5QKPFHdJoaRc1onqGK1WoZmjWe5UVWes0tbDr\nohkW+0t6rSYlGlk8u3Ih7zUSvzCu0wLomCl0wz9S8kqNV1AmtQ+SPtu/1GRZeWDE\neK/d7qm3Ws+LIcSAQFzoTETn6j46GutN6RJvSM5uO/FY4PI12uFZVNL1kwL3q9wj\nqSPvnb6IuyND19UcBzy0xtvCI/JZrffdenMMxdKeJmPi0gs9mZv0E9aOxcQBylTr\n7I/fqzomXr6sUKgzcBzVFfCS7cft8LUZZKdv3LKo53Y1R5jUwBjPzuq8LPlSgtmj\nyMlM2ljzd5zPkgnjn9GCsCHVytMsR7XTlyijijbpTShhpFcv3JbnaIfkcrLJIIfs\nB+Ki2dwTsMm7iSb7gRmdgpcxnLreFis9v1ECCjZxoRV6DKFFw176+YFyo3i7z1+P\nWt7Txx6QXPTQ+aEwJ8tLiD3bGrvs45cUw7EB3SEA+6lCzwQjJ0VoDY65P+72vywv\nCbfR3c/KyWmMg59BmAMn\n=8Xno\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 880c8a76f81bfa804a007a86f7644d1ea060a926\nparent e65704188919033d2f2acc5a8c58b27f10cd4b1c\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1749101417 +0000\ncommitter GitHub <noreply@github.com> 1749101417 +0000\n\nbuild(deps): bump rack from 3.1.15 to 3.1.16\n\nBumps [rack](https://github.com/rack/rack) from 3.1.15 to 3.1.16.\n- [Release notes](https://github.com/rack/rack/releases)\n- [Changelog](https://github.com/rack/rack/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/rack/rack/compare/v3.1.15...v3.1.16)\n\n---\nupdated-dependencies:\n- dependency-name: rack\n  dependency-version: 3.1.16\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-06-05T05:30:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+    "html_url": "https://github.com/rubyforgood/casa/commit/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/fbd3b8a1b4409c50b6a0944dc57e7191c5d60356/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      }
+    ]
+  },
+  {
+    "sha": "ed747860e6bd9e065c5e25cdb486ef976079d3af",
+    "node_id": "C_kwDODs5nkdoAKGVkNzQ3ODYwZTZiZDllMDY1YzVlMjVjZGI0ODZlZjk3NjA3OWQzYWY",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-06-02T11:54:47Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-02T11:54:47Z"
+      },
+      "message": "build(deps): bump oj from 3.16.10 to 3.16.11\n\nBumps [oj](https://github.com/ohler55/oj) from 3.16.10 to 3.16.11.\n- [Release notes](https://github.com/ohler55/oj/releases)\n- [Changelog](https://github.com/ohler55/oj/blob/develop/CHANGELOG.md)\n- [Commits](https://github.com/ohler55/oj/compare/v3.16.10...v3.16.11)\n\n---\nupdated-dependencies:\n- dependency-name: oj\n  dependency-version: 3.16.11\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "8396ac9602f4d2f6f5c56525d5731247ada64e73",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/8396ac9602f4d2f6f5c56525d5731247ada64e73"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/ed747860e6bd9e065c5e25cdb486ef976079d3af",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPZEHCRC1aQ7uu5UhlAAAwTgQABurFpWWal40t0Z2Yzk40vjT\nQEQxb4YOsx/SRIgye87QcbmvhLyQkOGYFFHaJC0Vv8NuBkQI/BD9RDoe+A4KqSBV\nqipO1sjmR9u9hJN4+A19iBKOjTvCEZxo4gJD9TyxOXW9sbFlUSBOxhqWUDEF1bht\nzOTlHdnQBoAKalDRNJEG1P1gzzPUCaelajl/c2cj2He6rhclE3ife1SI/O20flqt\npBSXlKvDnxJzJCBLGr+AYO4SfiHJOdW0jlqWOP5gM5WlxiMwKak0JaVCPUEv9AD+\nyM9mV5p8N5loMBxDe7zsrYvjaTaIk8E9vw+GHfIEBaWPSgv7aqMnKJzpZtSeEmlA\ndZNvxmJ/RochT2lcaqXaGvI32qDbrkWZssuQQQBwc2y80CR+UUz5Oxf3j64Sm6YI\nIRElI4BhvusEopSz6p8aXXW3eRQ5Q/abgGB501rY55oz2MDrDfNFKcWUabo5IGmE\nxnqFUqKsOHDNxob67rjSlsPPA1Xf8we09UoZtQiA34ww8RPCKElJliLBCAdpRdZZ\n0F8GA4lrxEowhW3oVEr8qtCr5PlzzQT/fcjqcMc2PHhr5+DsJMqHRAD/IW3rZ4W8\nbQo/H0qFln3wft1V5C9fk1D1pl3sU/Vz7q/XT/0VF/oyCXR+OVvuUsD/mW1hWxEI\npA/izOpZP5jp3Lg+tlM9\n=5tjJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8396ac9602f4d2f6f5c56525d5731247ada64e73\nparent e65704188919033d2f2acc5a8c58b27f10cd4b1c\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748865287 +0000\ncommitter GitHub <noreply@github.com> 1748865287 +0000\n\nbuild(deps): bump oj from 3.16.10 to 3.16.11\n\nBumps [oj](https://github.com/ohler55/oj) from 3.16.10 to 3.16.11.\n- [Release notes](https://github.com/ohler55/oj/releases)\n- [Changelog](https://github.com/ohler55/oj/blob/develop/CHANGELOG.md)\n- [Commits](https://github.com/ohler55/oj/compare/v3.16.10...v3.16.11)\n\n---\nupdated-dependencies:\n- dependency-name: oj\n  dependency-version: 3.16.11\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-06-02T11:54:52Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/ed747860e6bd9e065c5e25cdb486ef976079d3af",
+    "html_url": "https://github.com/rubyforgood/casa/commit/ed747860e6bd9e065c5e25cdb486ef976079d3af",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/ed747860e6bd9e065c5e25cdb486ef976079d3af/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      }
+    ]
+  },
+  {
+    "sha": "19f432ae5caa71613ad757d52a2293db1b420a5c",
+    "node_id": "C_kwDODs5nkdoAKDE5ZjQzMmFlNWNhYTcxNjEzYWQ3NTdkNTJhMjI5M2RiMWI0MjBhNWM",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-06-02T11:47:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-02T11:47:38Z"
+      },
+      "message": "build(deps): bump @babel/core from 7.27.1 to 7.27.4\n\nBumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.27.1 to 7.27.4.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.27.4/packages/babel-core)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/core\"\n  dependency-version: 7.27.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "4834b6fa6cf0f7adb47844aad4dff56ab6b5b2d2",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/4834b6fa6cf0f7adb47844aad4dff56ab6b5b2d2"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/19f432ae5caa71613ad757d52a2293db1b420a5c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPY9aCRC1aQ7uu5UhlAAAwVwQAB45BEHcdbcCftXTcLpvtnHF\nIBPr+OnrdvWatqTT8nEJa1qsDfPFu6xOHOMzCav7Sk/bwMttgJXXwg1kMOYNJtu0\n7BQu+pa0/XP71FDiBJWsUGzObACaYz5pp8gUjVufPcXVtTxzlLP6B7nLZyAnVKq1\nHgDhVk40LOvKBcZhl4MYE1CeNN3MVR9Q0yDQezxWq07poC6Ufevc2OBmb6V0JgIK\nM5A8DfY55oMlO1E3hmXJwacJU3e49cy00vXXIr1iVmkQqxpsa+1b4tO/EdZzIBrt\nYCXqyGc48DyhekvXX62sdbLVQltiUQBqNp3lbnptIapSHo21uxKsbXgxI5v3SXej\nuHcja9V7Q82asQS137GA3FrWzEgLIR+gx/Lzia1yeXqxWtcIjth4zdqSwoR6UI4x\nlB75o16vgG3FMg53etc+nHS91jRnjErhRbwKU3ab+SK0rlBFQhs765cT2KQTdg5I\nXhscwerm2CyNLNaMQ2bhH0zbEblW7vb5udbK/WXnJkFEhT4M6qD/QguEKwZ7IPjO\nrApHZsZehiXFbgHeLvNQSi9kXl8ZRffxvgUtP538Cn8pOTWUFKmbalRhAyyhlnCP\nrjT3Ksthu8L2KSNOqxSc/n47/XD9Lev7jDlQkVE360bSvb+0wZPejnbuU3Ym/9+b\nQjcNPS5lNZFf7eYIHIUv\n=xAA9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4834b6fa6cf0f7adb47844aad4dff56ab6b5b2d2\nparent e65704188919033d2f2acc5a8c58b27f10cd4b1c\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748864858 +0000\ncommitter GitHub <noreply@github.com> 1748864858 +0000\n\nbuild(deps): bump @babel/core from 7.27.1 to 7.27.4\n\nBumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.27.1 to 7.27.4.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.27.4/packages/babel-core)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/core\"\n  dependency-version: 7.27.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-06-02T11:47:46Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/19f432ae5caa71613ad757d52a2293db1b420a5c",
+    "html_url": "https://github.com/rubyforgood/casa/commit/19f432ae5caa71613ad757d52a2293db1b420a5c",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/19f432ae5caa71613ad757d52a2293db1b420a5c/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      }
+    ]
+  },
+  {
+    "sha": "03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+    "node_id": "C_kwDODs5nkdoAKDAzY2ZjZjMwZDNiNTFhYTBmZjQyZTdiMzRjM2MxN2JlZjg5ODUwY2I",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-06-02T11:46:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-02T11:46:13Z"
+      },
+      "message": "build(deps-dev): bump parallel_tests from 5.2.0 to 5.3.0\n\nBumps [parallel_tests](https://github.com/grosser/parallel_tests) from 5.2.0 to 5.3.0.\n- [Changelog](https://github.com/grosser/parallel_tests/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/grosser/parallel_tests/compare/v5.2.0...v5.3.0)\n\n---\nupdated-dependencies:\n- dependency-name: parallel_tests\n  dependency-version: 5.3.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "0ae4478519b8e671c4d6452be91d57cd5514925c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/0ae4478519b8e671c4d6452be91d57cd5514925c"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPY8FCRC1aQ7uu5UhlAAAowQQACc+l+yNg/J0kxbogZ+RqrDQ\nU5WKtlB3N35vlFz9ORbMcpgupzFHq23n4LA1T0XdE9TOAhTr4TOmv7+hIZ9F/n6L\nKSiyF08IgLjskudVG/vM26f9Egz/JjcwHN/gsn+jAqZSFYT88o1U4sAsXNJUNzwP\nPhIscs5Yz4V5uehm2rg3X4IGvyQpaCLhYO9SXB3mA7HkySSqbDxNpKt9Fpe9exPx\na1wt19ZAbDxXMYbs264MG1738IlnlpOBhiHApgZ7sbZ8ID52UOvbqKgfuUx3yPcu\ngsJzXyA7Z5i9vjemTiY+RTv/PDXhEBGx05brAfH/TwmS9dcMmd6hbAYytcRtyO+J\nytxL4sijN3Efg0ZhOIIwu/QgLOmoPYZyuoOQ3TTmTga9rJZMkvHuO1DotG2mbds4\n2Y9HJOUFrzPOCqS8AkUU+LhT5MD/lcYLRbhRmlRzggN/EhHaHtqrDhbrS7lLjUdf\nN3owqQrTvEN7DQVd5c+8M0uhIFugeJmnfgJkyGCpw0BKai9D2SSbrphS3AFk/xMB\nmHyr/zRGkyQe/sNoY1p3XNmt/SuF5yetpZsEmWOY0tOqrOl2iuPv93S/m5sdWBcq\npMOzlIBliucxT3Cbha6d9Q4M2bgHW+YjsTJBI5rKdEt8O+KnCWSsswjeS+4UlCWg\n6mMJM7BOcu87jPkNVccY\n=WsNY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ae4478519b8e671c4d6452be91d57cd5514925c\nparent e65704188919033d2f2acc5a8c58b27f10cd4b1c\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748864773 +0000\ncommitter GitHub <noreply@github.com> 1748864773 +0000\n\nbuild(deps-dev): bump parallel_tests from 5.2.0 to 5.3.0\n\nBumps [parallel_tests](https://github.com/grosser/parallel_tests) from 5.2.0 to 5.3.0.\n- [Changelog](https://github.com/grosser/parallel_tests/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/grosser/parallel_tests/compare/v5.2.0...v5.3.0)\n\n---\nupdated-dependencies:\n- dependency-name: parallel_tests\n  dependency-version: 5.3.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-06-02T11:46:18Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+    "html_url": "https://github.com/rubyforgood/casa/commit/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/03cfcf30d3b51aa0ff42e7b34c3c17bef89850cb/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      }
+    ]
+  },
+  {
+    "sha": "1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+    "node_id": "C_kwDODs5nkdoAKDFlMzViMGZlMDg3ZGI2YzAzNmYwZDhlM2Q4MGY4NWY3NzkxMDgxYzQ",
+    "commit": {
+      "author": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-29T07:52:23Z"
+      },
+      "committer": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-29T07:52:23Z"
+      },
+      "message": "Add spec for trim_name method in CustomOrgLink model for issue #247",
+      "tree": {
+        "sha": "8de07e12972e83da615fedab6d8a9eeefc36fcf6",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/8de07e12972e83da615fedab6d8a9eeefc36fcf6"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+    "html_url": "https://github.com/rubyforgood/casa/commit/1e35b0fe087db6c036f0d8e3d80f85f7791081c4",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/1e35b0fe087db6c036f0d8e3d80f85f7791081c4/comments",
+    "author": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c"
+      }
+    ]
+  },
+  {
+    "sha": "e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+    "node_id": "C_kwDODs5nkdoAKGU2NTcwNDE4ODkxOTAzM2QyZjJhY2M1YThjNThiMjdmMTBjZDRiMWM",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:47:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:47:26Z"
+      },
+      "message": "Merge pull request #6399 from rubyforgood/dependabot/bundler/noticed-2.7.0\n\nbuild(deps): bump noticed from 2.6.1 to 2.7.0",
+      "tree": {
+        "sha": "ea56301f57022d6e4e3899bc25807362cf7cb357",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/ea56301f57022d6e4e3899bc25807362cf7cb357"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz4eCRC1aQ7uu5UhlAAAnhQQAC141ER3v8ZSe5XMEDKH0BEr\nxhcMCVTAB+65z5h65Cfimr088WSksL2ITgBif85qk4ThZajzVB9eghc/R7V1/oe8\n2CKXDu8cYsYPcBGBh8Y/E+JiIMEJlA672+DYfdUJA9la9xhLxNzetuxKZLDi6Cch\nDab/NiXxrJcbXOfjaKR0by94efBXTvnJq70IAF5FjQO/u7qWPYQLvMc/paBFMJEv\nt+IHrNRUPi4WoiG2cxk8YZh5q2KqeeebBiz0/G51htuDaWhINZw/odgSXAa9MAb0\njsUVdJ6IV9EqUUe5b2D+SWSJ5dYAxvg5YLVKxApG1HquuUhrc2fGsp9KhqcbBG/A\nCugzSDQagkKk4uSDHUk+1KSgF33W7rG8Sj/FGsEgA0Y7W71yPc4D2an+qAvTJ1x9\nuV/0HgI+ARjxuCtzsuRKGWdHRWQegf0YGY+nHovNhFvZC4ejmdBqRy6cJQD/Gn/v\n6mgu35bwvjxKMgWrpe4iBWBNL25P/JyoojlPZKxZfct+bTRAnRKBFuq60wxbCPve\nH5JbxB2DFsvOS1DOaAidVeeUGfXJPDi6elqu04nOP6vc6wXRqIASpkqjWTn+MwKZ\nASZH9tgLkbqlvb9SyKtsVvjdPuGu+ofeTwvMwRl2N1XPy01UyQ9fF0J9pwKB/2Wi\nKllcl8D+st9grKN/bJUR\n=/ksD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ea56301f57022d6e4e3899bc25807362cf7cb357\nparent 9247c9bc543eb46293141701f8d4b134fc5ed017\nparent cb9afe21a973ace5bf18c33580f74555a8cba085\nauthor compwron <compiledwrong@gmail.com> 1748450846 -0700\ncommitter GitHub <noreply@github.com> 1748450846 -0700\n\nMerge pull request #6399 from rubyforgood/dependabot/bundler/noticed-2.7.0\n\nbuild(deps): bump noticed from 2.6.1 to 2.7.0",
+        "verified_at": "2025-05-28T16:47:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+    "html_url": "https://github.com/rubyforgood/casa/commit/e65704188919033d2f2acc5a8c58b27f10cd4b1c",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/e65704188919033d2f2acc5a8c58b27f10cd4b1c/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9247c9bc543eb46293141701f8d4b134fc5ed017",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/9247c9bc543eb46293141701f8d4b134fc5ed017",
+        "html_url": "https://github.com/rubyforgood/casa/commit/9247c9bc543eb46293141701f8d4b134fc5ed017"
+      },
+      {
+        "sha": "cb9afe21a973ace5bf18c33580f74555a8cba085",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/cb9afe21a973ace5bf18c33580f74555a8cba085",
+        "html_url": "https://github.com/rubyforgood/casa/commit/cb9afe21a973ace5bf18c33580f74555a8cba085"
+      }
+    ]
+  },
+  {
+    "sha": "9247c9bc543eb46293141701f8d4b134fc5ed017",
+    "node_id": "C_kwDODs5nkdoAKDkyNDdjOWJjNTQzZWI0NjI5MzE0MTcwMWY4ZDRiMTM0ZmM1ZWQwMTc",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:47:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:47:13Z"
+      },
+      "message": "Merge pull request #6400 from rubyforgood/dependabot/bundler/devise_invitable-2.0.11\n\nbuild(deps): bump devise_invitable from 2.0.10 to 2.0.11",
+      "tree": {
+        "sha": "94dbd13c7091fefd8a44094b79436efac1aea01b",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/94dbd13c7091fefd8a44094b79436efac1aea01b"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/9247c9bc543eb46293141701f8d4b134fc5ed017",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz4RCRC1aQ7uu5UhlAAAJZsQAArO+QAhc2hh5zLo/R+eSIoy\nINk1vDVaedStJfHrFaRONAWON/vG2SSiasmTpebm+yurbuRPzqxEHJesQalV+A2j\nr6QMYbV3SGRb+PkTbQh3WubsPw2PsF+Ubh9GW5PGib1z0h9PJ2qHcL5w5M5vOrXD\n8z1DkQtzIUN/QSefbN9RKOGmg3+ypZI+IHkYjeiwrKYi3LORjWZhuagxXndeNvYM\nkqYFnATHy4JHdqrUShRpPcVTAJ1tLUiZXshh+sowVMzz3INa/EBynei+gjnRwmSe\nvQR3kbZisZn+uwcE4367CSTHkBHVoXLqxPWgzlBzAYY8Ygq+WoljA5lGQyJCtRqD\nQl7FtbUi2vWese3XYKx4ZjfkMQRlItDUbSfHBzxXCNfY4HwQc84m79AzXaI1hu2o\nxrCn+FYvVOSFpvyJH9G+I/b25GfEP6eIDQGH72gy6rTwLDWgCm9oGqCeyqlup9/X\ngoIeR/W3qD3G0/KpHh7XHlwXfAULkVNRzKEsDAbN+HCkL9FNSAq9aABDviRzWXbk\ng+IOr/qqZdhDzElkhz5Fd88kgvQdbTpZjNVEXplbMnZBFBeCdG25gk8tq5A18LGM\ndMK5VZwSnD2Pb57UARaPvFQvRoKQHKYS4PWWaYfxu5Inxy1qcrW8/zcxtjN93iti\nH7xhLDuO5lkoA9nKcexy\n=XWh8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 94dbd13c7091fefd8a44094b79436efac1aea01b\nparent 0d327de52210ee204dbf6d1d51e931fcaada3e5e\nparent ef0cc996328147d647016af8e6375b585854d8b8\nauthor compwron <compiledwrong@gmail.com> 1748450833 -0700\ncommitter GitHub <noreply@github.com> 1748450833 -0700\n\nMerge pull request #6400 from rubyforgood/dependabot/bundler/devise_invitable-2.0.11\n\nbuild(deps): bump devise_invitable from 2.0.10 to 2.0.11",
+        "verified_at": "2025-05-28T16:47:14Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/9247c9bc543eb46293141701f8d4b134fc5ed017",
+    "html_url": "https://github.com/rubyforgood/casa/commit/9247c9bc543eb46293141701f8d4b134fc5ed017",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/9247c9bc543eb46293141701f8d4b134fc5ed017/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+        "html_url": "https://github.com/rubyforgood/casa/commit/0d327de52210ee204dbf6d1d51e931fcaada3e5e"
+      },
+      {
+        "sha": "ef0cc996328147d647016af8e6375b585854d8b8",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ef0cc996328147d647016af8e6375b585854d8b8",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ef0cc996328147d647016af8e6375b585854d8b8"
+      }
+    ]
+  },
+  {
+    "sha": "0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+    "node_id": "C_kwDODs5nkdoAKDBkMzI3ZGU1MjIxMGVlMjA0ZGJmNmQxZDUxZTkzMWZjYWFkYTNlNWU",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:47:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:47:01Z"
+      },
+      "message": "Merge pull request #6401 from rubyforgood/dependabot/bundler/twilio-ruby-7.6.1\n\nbuild(deps): bump twilio-ruby from 7.6.0 to 7.6.1",
+      "tree": {
+        "sha": "97ca46b07f03a9208171ec52365b5f7646959c03",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/97ca46b07f03a9208171ec52365b5f7646959c03"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz4FCRC1aQ7uu5UhlAAA95AQAD5xxIPXMmKkULWjii8FKIle\nchbCgBUZzAzR1bdaKyr52ozQ+/VvilDqpnuzt7+OrtXdFwclSTn1yVoV6AZfzWbE\nNReWS+cC4WD4Qem5s2M67NTx5L8Yk9thBGvpVkjr3uyViLV8/CAP2m9KP/bgR+sp\nALD0Ynx91EFy5I0thwEZWzhy9dDIows+w42+0hhUIRwhlxqpMJRhqAVz8wduu0bl\n/7ragqTlM0Y2S2BpN4wuN8BGGKAJ8ZKSOLOgoaRBayPXhVnjVl69N079B5Z8jTib\nOnZZaoScpGIoRCABMNoMjJTOfVnbG6uNJnvjjm5azr5F8xaTi6ysYmigveVUEB1B\nDpc6SLVOzauDAzZ6dzdtKK9lWvEesYT57LXZMRrP+R8RkRX7NE1EXCW8owQbirjj\njdgvlV2LSI6+slhN/ANhC+tusE0vOhbANrnmUDtSYjSZyUpir8VP8c8BwnPpY/0a\n7rwXBAgiY7FZwOLrYwc0Uwpd84mmS12KTe4jZgJzRTXv04GdZtA8xdjTrPMSezt1\n9b3mqpkdAhwoE2p6Ot5HiVS1qt3ptp+E78g5lS5b9AEsuxlKk7tB/9hTADr/fQ4D\n2ozrOWFQS1C+tbA7FfykNFhFgNuqZ3m7N7s2/RkenFTq71D7rBE6nqDFN9XDJ8m1\nVftSmxpQTA9lCIIaDmIc\n=C3nz\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 97ca46b07f03a9208171ec52365b5f7646959c03\nparent 3583ea4ade56573b8647ec1e421c22df81794fe2\nparent b6e94adc9193019a4b6970c83112554f9f49909b\nauthor compwron <compiledwrong@gmail.com> 1748450821 -0700\ncommitter GitHub <noreply@github.com> 1748450821 -0700\n\nMerge pull request #6401 from rubyforgood/dependabot/bundler/twilio-ruby-7.6.1\n\nbuild(deps): bump twilio-ruby from 7.6.0 to 7.6.1",
+        "verified_at": "2025-05-28T16:47:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+    "html_url": "https://github.com/rubyforgood/casa/commit/0d327de52210ee204dbf6d1d51e931fcaada3e5e",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/0d327de52210ee204dbf6d1d51e931fcaada3e5e/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3583ea4ade56573b8647ec1e421c22df81794fe2",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/3583ea4ade56573b8647ec1e421c22df81794fe2",
+        "html_url": "https://github.com/rubyforgood/casa/commit/3583ea4ade56573b8647ec1e421c22df81794fe2"
+      },
+      {
+        "sha": "b6e94adc9193019a4b6970c83112554f9f49909b",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/b6e94adc9193019a4b6970c83112554f9f49909b",
+        "html_url": "https://github.com/rubyforgood/casa/commit/b6e94adc9193019a4b6970c83112554f9f49909b"
+      }
+    ]
+  },
+  {
+    "sha": "3583ea4ade56573b8647ec1e421c22df81794fe2",
+    "node_id": "C_kwDODs5nkdoAKDM1ODNlYTRhZGU1NjU3M2I4NjQ3ZWMxZTQyMWMyMmRmODE3OTRmZTI",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:46:52Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:46:52Z"
+      },
+      "message": "Merge pull request #6402 from rubyforgood/dependabot/bundler/amazing_print-1.8.1\n\nbuild(deps): bump amazing_print from 1.8.0 to 1.8.1",
+      "tree": {
+        "sha": "dc6728258a3ada5205545037ebf2e49e5fdbde50",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/dc6728258a3ada5205545037ebf2e49e5fdbde50"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/3583ea4ade56573b8647ec1e421c22df81794fe2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz38CRC1aQ7uu5UhlAAA0PAQAAHi6bLqVSxOytXPVTgGVgsG\nqCj3mYxN6rbPbbhjYzjulCpu1CvdOi5m4NO2L7SAaxcht7Ej269/5Jc75btLBBAA\nm/GqXGIZIh90yZbl+x/Sw+fAYoSQ1mfVOWxpjsrEFv53VNOKtG+Kxdf2oN5rvmke\nnOz4Ga/XXjZHfsTFHNrUxfRUby3w1FTd9CalES9YKpcMTh5yIYctJLzBzPHheMBX\na0tHJ74R/Ss1E+mcRSfkxnprx+ZQjS/Kk3oqB9OBQYlkZt4mBLQR0/5ZON4+mgdf\nnMLrc/SmFihcKuBG7jbNbv/x2Ts2YNNh81waR76wL+N+9pkE4lBnkb/x1tCuMoR6\noyPXNog5dpT68ydH2yTpmGLYa8v3UMpG8YDfFf+5AIpiuV6dvUVm6UtybYAZpVcc\nr8X8V5B+HHYL7Vl+/P6+7hYc5SoDjveY5gkPOsbrpUb9Gx6/rl5Vl6PHgFLkrUeU\n4EFiV/3RU72LAb1HCD4Wr1PjKYppL66R6a36swJr18FuuLyPsdVeULL2o4tg74Nu\nQ0pyQmvsKswkUhWO0Wy5ZX8PzaNvHEnLhPMfta2MpwCa7S14xcYsFhgdwBNyg0qf\nw+h6geAvLXxQ81G6WVe+Jjkqg0IFr4tDvjveTh4/SNNhTOETkUtiP+BGqjSJxyTY\n1SD8PSwhwEDOHpbzqaXs\n=abZU\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree dc6728258a3ada5205545037ebf2e49e5fdbde50\nparent 36d327783cfc60f2d48255b2cb80c57a433d4a9c\nparent 0d0d2af29b57357f984b0031ebd3a58ea22f3a0e\nauthor compwron <compiledwrong@gmail.com> 1748450812 -0700\ncommitter GitHub <noreply@github.com> 1748450812 -0700\n\nMerge pull request #6402 from rubyforgood/dependabot/bundler/amazing_print-1.8.1\n\nbuild(deps): bump amazing_print from 1.8.0 to 1.8.1",
+        "verified_at": "2025-05-28T16:47:11Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/3583ea4ade56573b8647ec1e421c22df81794fe2",
+    "html_url": "https://github.com/rubyforgood/casa/commit/3583ea4ade56573b8647ec1e421c22df81794fe2",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/3583ea4ade56573b8647ec1e421c22df81794fe2/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+        "html_url": "https://github.com/rubyforgood/casa/commit/36d327783cfc60f2d48255b2cb80c57a433d4a9c"
+      },
+      {
+        "sha": "0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+        "html_url": "https://github.com/rubyforgood/casa/commit/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e"
+      }
+    ]
+  },
+  {
+    "sha": "36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+    "node_id": "C_kwDODs5nkdoAKDM2ZDMyNzc4M2NmYzYwZjJkNDgyNTViMmNiODBjNTdhNDMzZDRhOWM",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:46:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:46:32Z"
+      },
+      "message": "Merge pull request #6403 from rubyforgood/dependabot/bundler/docx-0.9.1\n\nbuild(deps-dev): bump docx from 0.8.0 to 0.9.1",
+      "tree": {
+        "sha": "88fd7fdff39f028a0c5be6ce2b0544bd52c9c3fa",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/88fd7fdff39f028a0c5be6ce2b0544bd52c9c3fa"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz3oCRC1aQ7uu5UhlAAAJ7cQAFKqfFq0qHYKybjKZOzIqWJL\nUJDoj3ZzO9F6OkCXDN+lheqsCixcjNPZIE4fIWZv9tyoLwV/c+VsAGIJp5rNTYk+\ng1tU+6FISu2nEXRisc6ujHJLHAt8ausjOoJXPbHOpjfMFlr16TZR5V/pwOFOpA7h\n6XObrnExjoJHdjND8p7if4hnCm4jos4s9VCxmBAGCmWy2N7lCK3TbGTqlEI8eeni\nwVYu4HsoNFSUu423lzjxK8BjVY5PoANvizyxP1+/glZZBcTlpsRZMSL0L0dylpuk\nvWlfpSzKCw/P9E/+UR0ZoHV6zWWqG/3aMi5K9r2qBvbpb4dknFGkKndC7N/iuu3F\nZ7g+h3bKWaBITwMSiXHNFQ+BtkSUpYqEVlbOspfXnWnQlG/qI3gi9nhTcoMMXfWR\nOxtjolpRN3TAkg4y1z4/oAJkWznuzFqfo5BbRdUGnL4NPj8nWOYn+wEttCb9EBhF\nqgX4VNMV6rRHZZJBnfYsl4qnzQN++GzOSMNikctrKlOm9aAiagtxIQj1bQpLpkJ1\n+XCZge9GuiVwKRaewd/W17HcIZ/LAMIMSsECnV/X2SvhwUup5fiMzwZEClbtHduZ\nUmdqnCcQkd55w1Q4GCiP0OkJ054IEBB9cv9fgpASL5uTjOkFyWzau3ti97MD2zLK\n93ld1lg3Z7aVw0XW9Hs5\n=yqTJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 88fd7fdff39f028a0c5be6ce2b0544bd52c9c3fa\nparent 001efd60183d72747fc9b5d763033ab855634aba\nparent fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7\nauthor compwron <compiledwrong@gmail.com> 1748450792 -0700\ncommitter GitHub <noreply@github.com> 1748450792 -0700\n\nMerge pull request #6403 from rubyforgood/dependabot/bundler/docx-0.9.1\n\nbuild(deps-dev): bump docx from 0.8.0 to 0.9.1",
+        "verified_at": "2025-05-28T16:46:38Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+    "html_url": "https://github.com/rubyforgood/casa/commit/36d327783cfc60f2d48255b2cb80c57a433d4a9c",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/36d327783cfc60f2d48255b2cb80c57a433d4a9c/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "001efd60183d72747fc9b5d763033ab855634aba",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/001efd60183d72747fc9b5d763033ab855634aba",
+        "html_url": "https://github.com/rubyforgood/casa/commit/001efd60183d72747fc9b5d763033ab855634aba"
+      },
+      {
+        "sha": "fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+        "html_url": "https://github.com/rubyforgood/casa/commit/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7"
+      }
+    ]
+  },
+  {
+    "sha": "001efd60183d72747fc9b5d763033ab855634aba",
+    "node_id": "C_kwDODs5nkdoAKDAwMWVmZDYwMTgzZDcyNzQ3ZmM5YjVkNzYzMDMzYWI4NTU2MzRhYmE",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-28T16:45:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-28T16:45:56Z"
+      },
+      "message": "Merge pull request #6405 from nizam12khan/feature/6404-trim-custom-link-whitespace\n\nFix #6404: Trim whitespace from custom link text before saving",
+      "tree": {
+        "sha": "fbb75278bf33aa8b0f24d237faa85fef420518f4",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/fbb75278bf33aa8b0f24d237faa85fef420518f4"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/001efd60183d72747fc9b5d763033ab855634aba",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNz3ECRC1aQ7uu5UhlAAAikUQACfm+cbCOz3i/WKpVLsaTYBu\nBKunHR/DCvfXYVBaiPlMbM+AEf/JV6M/r2HULJnNAP0ehvYIUNKxo+QJ1HINiKA5\n7mOzagioy/aRpAaRKxCUixxZU7tDks86lzh6OrFzFXmVZsPeKd+Nxja4jUKwNoPu\nqE3sjF4izze6v2RMj9SomOYG7DQAdmQcy0YkDPOn3Lbt6uQQbWl0chunNorUvmJm\nHwV9ZMla3dYVcJ2DmoXi6AusMPDfK0E/zhdslLesfwm0DU+F9bcu9HX83pzA+4Un\nyJAjf7y/h4qsc/NdOBwYsNYWv+z7jkWLE5+EUPLEIXnuGmo4htEUwGE1/OIIgSRn\nBCiIrsywiMVxi96EsxhsEKd+nQ2q/+Vx+CO+2GJ6dZGpn8xbqJUrBdyW93mP/rj1\nXSQ2QD35FxwRkHS45FYjNgcgPti875HgFfxJqlpj222ev7oan2kXHpttffortjCg\nIwLsB068RuXz2cZLPcRNhjETnLGRB6mPhK89YqkweghgKNpzlYBGCYa3YNXWFkmq\n+0kZ48JpR9laBZeUaMUfnqfPylefs9vGn8dO9bOCLumUWfM2VoKJnqD2P0Yo/jAm\nrlMwHcO0D2Fv0wI4iDxuYTtfMMG8FipmI5685WyuteNGMqQSvZ+T1tEJ7or5WMFY\nZ/zsJaJlN5GX95pUitcR\n=MiWt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fbb75278bf33aa8b0f24d237faa85fef420518f4\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nparent 7bb6657e06abf6c36e5cf9e597e542dd204a0ff7\nauthor compwron <compiledwrong@gmail.com> 1748450756 -0700\ncommitter GitHub <noreply@github.com> 1748450756 -0700\n\nMerge pull request #6405 from nizam12khan/feature/6404-trim-custom-link-whitespace\n\nFix #6404: Trim whitespace from custom link text before saving",
+        "verified_at": "2025-05-28T16:46:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/001efd60183d72747fc9b5d763033ab855634aba",
+    "html_url": "https://github.com/rubyforgood/casa/commit/001efd60183d72747fc9b5d763033ab855634aba",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/001efd60183d72747fc9b5d763033ab855634aba/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      },
+      {
+        "sha": "7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+        "html_url": "https://github.com/rubyforgood/casa/commit/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7"
+      }
+    ]
+  },
+  {
+    "sha": "7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+    "node_id": "C_kwDODs5nkdoAKDdiYjY2NTdlMDZhYmY2YzM2ZTVjZjllNTk3ZTU0MmRkMjA0YTBmZjc",
+    "commit": {
+      "author": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:59:44Z"
+      },
+      "committer": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:59:44Z"
+      },
+      "message": "Update schema after adding migration",
+      "tree": {
+        "sha": "fbb75278bf33aa8b0f24d237faa85fef420518f4",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/fbb75278bf33aa8b0f24d237faa85fef420518f4"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+    "html_url": "https://github.com/rubyforgood/casa/commit/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/7bb6657e06abf6c36e5cf9e597e542dd204a0ff7/comments",
+    "author": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0edc18825bdc723554631be97b9b0184d4b33cc",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/a0edc18825bdc723554631be97b9b0184d4b33cc",
+        "html_url": "https://github.com/rubyforgood/casa/commit/a0edc18825bdc723554631be97b9b0184d4b33cc"
+      }
+    ]
+  },
+  {
+    "sha": "a0edc18825bdc723554631be97b9b0184d4b33cc",
+    "node_id": "C_kwDODs5nkdoAKGEwZWRjMTg4MjViZGM3MjM1NTQ2MzFiZTk3YjliMDE4NGQ0YjMzY2M",
+    "commit": {
+      "author": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:52:01Z"
+      },
+      "committer": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:52:01Z"
+      },
+      "message": "Fixinng lint issues",
+      "tree": {
+        "sha": "17e0f0b8870b2cc5f7904b8b636140a4898a4716",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/17e0f0b8870b2cc5f7904b8b636140a4898a4716"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/a0edc18825bdc723554631be97b9b0184d4b33cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/a0edc18825bdc723554631be97b9b0184d4b33cc",
+    "html_url": "https://github.com/rubyforgood/casa/commit/a0edc18825bdc723554631be97b9b0184d4b33cc",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/a0edc18825bdc723554631be97b9b0184d4b33cc/comments",
+    "author": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ecb8c0046933d0ac5315b4f45422a9593f0329c0"
+      }
+    ]
+  },
+  {
+    "sha": "ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+    "node_id": "C_kwDODs5nkdoAKGVjYjhjMDA0NjkzM2QwYWM1MzE1YjRmNDU0MjJhOTU5M2YwMzI5YzA",
+    "commit": {
+      "author": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:35:12Z"
+      },
+      "committer": {
+        "name": "Nizamuddin Khan",
+        "email": "108728893+nizam12khan@users.noreply.github.com",
+        "date": "2025-05-28T09:35:12Z"
+      },
+      "message": "Fix #6404: Trim whitespace from custom link text before saving",
+      "tree": {
+        "sha": "933c0c67e7eefe1bddf1b0f7c6a4ef75f3992d42",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/933c0c67e7eefe1bddf1b0f7c6a4ef75f3992d42"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+    "html_url": "https://github.com/rubyforgood/casa/commit/ecb8c0046933d0ac5315b4f45422a9593f0329c0",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/ecb8c0046933d0ac5315b4f45422a9593f0329c0/comments",
+    "author": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nizam12khan",
+      "id": 108728893,
+      "node_id": "U_kgDOBnsSPQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108728893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nizam12khan",
+      "html_url": "https://github.com/nizam12khan",
+      "followers_url": "https://api.github.com/users/nizam12khan/followers",
+      "following_url": "https://api.github.com/users/nizam12khan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nizam12khan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nizam12khan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nizam12khan/subscriptions",
+      "organizations_url": "https://api.github.com/users/nizam12khan/orgs",
+      "repos_url": "https://api.github.com/users/nizam12khan/repos",
+      "events_url": "https://api.github.com/users/nizam12khan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nizam12khan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+    "node_id": "C_kwDODs5nkdoAKGZjODllMGYyZGZlYTYxMzk2M2UwZDA1YWQzZWEyYjY2NmQ5ZDMzYzc",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-26T12:16:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-26T12:16:27Z"
+      },
+      "message": "build(deps-dev): bump docx from 0.8.0 to 0.9.1\n\nBumps [docx](https://github.com/chrahunt/docx) from 0.8.0 to 0.9.1.\n- [Release notes](https://github.com/chrahunt/docx/releases)\n- [Changelog](https://github.com/ruby-docx/docx/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/chrahunt/docx/compare/v0.8.0...v0.9.1)\n\n---\nupdated-dependencies:\n- dependency-name: docx\n  dependency-version: 0.9.1\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "23935a290e49a572c54ab622342fb17e64495232",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/23935a290e49a572c54ab622342fb17e64495232"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNFubCRC1aQ7uu5UhlAAAlj8QACWVjTn/Poma7eS2s1guE+zP\nCF4YfPwz9R15XkdzXBAaGOaBhmzla7xKaTD6Eee6YqzIHQDgRXs0T9XEUFu9nemy\nSuOKrnG2ULhEfJBV+u2os+jOwuqTbOzZnQ8vc8gFEEvxT3EbuJ4G7WC7YL+XtZUq\nbFexY7TEuB/d89EA1DGNzoSkjcYqpR7HcY/F+lBYT7D+Kbu8YbKA85PjWXMuX9MK\n6UQ0Tn5pndmUUCnZkKz2av7TyN2dLA+1qeiFq10y6FHOdTDZwa+M6+gQJYM5y013\nJrQE6awAvHw4uI1iNnhPeuTjaNF6PuTvU1ADCyu6pWNTJqCQ5pHaNvJWn0h65af7\nH5TG2NcFCb4k+EjtReuXQTvZIFfM18792+4GWm4U9Dq/ZVhtijzoL7XYETgcbu5g\n7eNEoqojQmjic7Mr9SOsANJkC1tNyBBiywdcPzfsI0DLMlUQiuSTU1Qb2GamSNbJ\nquguJQu+N/iN0Qaj+T2EMElVUFPtRDNSOqNoyu7I4xme3bGEbStdZ8DNOzuIxn8u\ng/EvEGDM3mdRWZw3cMD+m99JBY810r2LWRm4iBP/scuW49fsbkH4gFLMkw2jJCzD\nMDNPsQ1FIvqVbcmROKFPCRKQUaevza0Mbr5eIb3byvXMIC2mF0Yz+2LmBIl+O5/j\nkYnbfVNOm+Y6ymdusg7H\n=J3pS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 23935a290e49a572c54ab622342fb17e64495232\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748261787 +0000\ncommitter GitHub <noreply@github.com> 1748261787 +0000\n\nbuild(deps-dev): bump docx from 0.8.0 to 0.9.1\n\nBumps [docx](https://github.com/chrahunt/docx) from 0.8.0 to 0.9.1.\n- [Release notes](https://github.com/chrahunt/docx/releases)\n- [Changelog](https://github.com/ruby-docx/docx/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/chrahunt/docx/compare/v0.8.0...v0.9.1)\n\n---\nupdated-dependencies:\n- dependency-name: docx\n  dependency-version: 0.9.1\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-26T12:16:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+    "html_url": "https://github.com/rubyforgood/casa/commit/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/fc89e0f2dfea613963e0d05ad3ea2b666d9d33c7/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+    "node_id": "C_kwDODs5nkdoAKDBkMGQyYWYyOWI1NzM1N2Y5ODRiMDAzMWViZDNhNThlYTIyZjNhMGU",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-26T12:15:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-26T12:15:30Z"
+      },
+      "message": "build(deps): bump amazing_print from 1.8.0 to 1.8.1\n\nBumps [amazing_print](https://github.com/amazing-print/amazing_print) from 1.8.0 to 1.8.1.\n- [Release notes](https://github.com/amazing-print/amazing_print/releases)\n- [Changelog](https://github.com/amazing-print/amazing_print/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/amazing-print/amazing_print/compare/1.8.0...1.8.1)\n\n---\nupdated-dependencies:\n- dependency-name: amazing_print\n  dependency-version: 1.8.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "f19067faa18377f611f5b46ba58b4a6301e321df",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/f19067faa18377f611f5b46ba58b4a6301e321df"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNFtiCRC1aQ7uu5UhlAAATrgQAJ+OA8rCTiLhRdu+EoqeQU/6\n1/KiEQc8zYBZXGKGGZNSnGMgfugKfdIux0MemPePlP5X/85c218pL4EEx9wZLqmk\n1EYrGPBBzl9LQzaycM5IQMqlL19WhtmpZ7ChTXnXYUuK5IYc7p5pVDf/UnukWYBk\nBcSo7QWAkDePwj4OqGBwm1SM9tUjo9LBBKlRjc/Sci8RF2D8mLmddUZPyq9GYW5H\n+jlz3ZnFLnE3dh7Gou+DnpZlA5Ct484eN91ick78b1SGzXPo0Duz9mR8AvOnIpzG\noCPtVqIVz5VvrMnqUjbKYgFek7hiB4GPugYO1Nd6seGEBGR+fm9cjtFSAJeSGifD\nOFlCWMOTXhWzBBTDGjmb0q95ton6VUNALeL+IcFNki9FmAnSfd0xvUqIxfWVmikJ\nBm80nKNrnwuEywo8oShCVXAhuEJifeUsq68Mf8RZLYEfV/1xq8pP6d8Y1AHwXa2A\nGFxoVcCnGA8wrqmkgII9n+GhWoa9P3z1YRw6QDOXAiQaBrzOgRwo3Jc8owv0VANK\n8D7bEsAH96K0VRPydch0mdBx6sfNRifwOq5vSSAJcD5qFUptTd55Cx999OCvtvkq\nmHS0tjp+Kgkd10tu62d7exQZzup4PxJyEbOoOYHBceXOgGMQpMWRIdvNbEOywad1\nDiS6IE2N5IfETwQsdQ00\n=awU2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f19067faa18377f611f5b46ba58b4a6301e321df\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748261730 +0000\ncommitter GitHub <noreply@github.com> 1748261730 +0000\n\nbuild(deps): bump amazing_print from 1.8.0 to 1.8.1\n\nBumps [amazing_print](https://github.com/amazing-print/amazing_print) from 1.8.0 to 1.8.1.\n- [Release notes](https://github.com/amazing-print/amazing_print/releases)\n- [Changelog](https://github.com/amazing-print/amazing_print/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/amazing-print/amazing_print/compare/1.8.0...1.8.1)\n\n---\nupdated-dependencies:\n- dependency-name: amazing_print\n  dependency-version: 1.8.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-26T12:15:38Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+    "html_url": "https://github.com/rubyforgood/casa/commit/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/0d0d2af29b57357f984b0031ebd3a58ea22f3a0e/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "b6e94adc9193019a4b6970c83112554f9f49909b",
+    "node_id": "C_kwDODs5nkdoAKGI2ZTk0YWRjOTE5MzAxOWE0YjY5NzBjODMxMTI1NTRmOWY0OTkwOWI",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-26T12:13:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-26T12:13:29Z"
+      },
+      "message": "build(deps): bump twilio-ruby from 7.6.0 to 7.6.1\n\nBumps [twilio-ruby](https://github.com/twilio/twilio-ruby) from 7.6.0 to 7.6.1.\n- [Release notes](https://github.com/twilio/twilio-ruby/releases)\n- [Changelog](https://github.com/twilio/twilio-ruby/blob/main/CHANGES.md)\n- [Commits](https://github.com/twilio/twilio-ruby/compare/7.6.0...7.6.1)\n\n---\nupdated-dependencies:\n- dependency-name: twilio-ruby\n  dependency-version: 7.6.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "5275e163af3d5a7bcacf11ca06af4e635a300f64",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/5275e163af3d5a7bcacf11ca06af4e635a300f64"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/b6e94adc9193019a4b6970c83112554f9f49909b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNFrpCRC1aQ7uu5UhlAAAGXIQAJlEVB4HKKi5Ps5qcxZkrLpN\njFJ5PHxyh7a1lh11v3TSUdrhLZX3nzR457M1NDF7ytfRbMcBGiq4QX0YzXRAUBGl\nxiSaMmmdrAvuKl4fcF3S1q9SsgksNFXvXOFkYBrST83AqZDEa4zkjCjemgn75mrK\nh9zXKIrhbv5agIK4C2OEKbM5DL0AHArsgppWzHo3zFcpFuoW9WDsu7jDNVowWHmH\no+K5g1qzukA8f1qQeEZvhxzk9qy8uXL+xlMX3oCtUUIt07wb0dNEOoLF3xCl+F2K\n0ZduG34uzZv+t/FZmrtx6PC3myOoJ8HBZqtkibi+aYU9y4rhe+gTK2m6r7sy3qfN\nErP8OtuDudD3ASXojdEWNY70PiKP3WuTCs1W5HV1LuDtVJ3Rt1oMaSLGz2rmLLjf\nFzDkwRMCCGafrOj3I8bfrw/YlqkOoaIkrg7y0sx3dDeXUi0jIExCr+lOkZOtwtLk\ne1CzSBsSj4IgfKaZTMh3JvrPIPJFbxfp14YYcWFfiwh8Gcl9IfzjcHpw3nqMSyK0\nhr2RbFDI1ogtIifK7KK7QtXBKseC7054PsqMyc3M6VfODeIg5FvNYIiJJdAKIKU8\nzN4mFgE89QqGU1/dNQzU1Or1Y1UwxPfIv8h9ETfL42H/ulQVi02FTA8545qbnUHp\nz7/n44cptLvHo6GMeUcT\n=bp3O\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5275e163af3d5a7bcacf11ca06af4e635a300f64\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748261609 +0000\ncommitter GitHub <noreply@github.com> 1748261609 +0000\n\nbuild(deps): bump twilio-ruby from 7.6.0 to 7.6.1\n\nBumps [twilio-ruby](https://github.com/twilio/twilio-ruby) from 7.6.0 to 7.6.1.\n- [Release notes](https://github.com/twilio/twilio-ruby/releases)\n- [Changelog](https://github.com/twilio/twilio-ruby/blob/main/CHANGES.md)\n- [Commits](https://github.com/twilio/twilio-ruby/compare/7.6.0...7.6.1)\n\n---\nupdated-dependencies:\n- dependency-name: twilio-ruby\n  dependency-version: 7.6.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-26T12:13:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/b6e94adc9193019a4b6970c83112554f9f49909b",
+    "html_url": "https://github.com/rubyforgood/casa/commit/b6e94adc9193019a4b6970c83112554f9f49909b",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/b6e94adc9193019a4b6970c83112554f9f49909b/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "ef0cc996328147d647016af8e6375b585854d8b8",
+    "node_id": "C_kwDODs5nkdoAKGVmMGNjOTk2MzI4MTQ3ZDY0NzAxNmFmOGU2Mzc1YjU4NTg1NGQ4Yjg",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-26T12:11:00Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-26T12:11:00Z"
+      },
+      "message": "build(deps): bump devise_invitable from 2.0.10 to 2.0.11\n\nBumps [devise_invitable](https://github.com/scambra/devise_invitable) from 2.0.10 to 2.0.11.\n- [Changelog](https://github.com/scambra/devise_invitable/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/scambra/devise_invitable/compare/v2.0.10...v2.0.11)\n\n---\nupdated-dependencies:\n- dependency-name: devise_invitable\n  dependency-version: 2.0.11\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "479e3bfcc900bef1c60eb55c8696c6d7f934100a",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/479e3bfcc900bef1c60eb55c8696c6d7f934100a"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/ef0cc996328147d647016af8e6375b585854d8b8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNFpUCRC1aQ7uu5UhlAAAq28QAGrl73CBPycnZZYKyqbdbk1E\n+l6sHNeDAxff58+weCsnyVrdiiW8m+OkKf46IHY5mnnGVYtUaeH9emjvJj59Sm+S\ngYOvnYp1zt7d8axgzzpPCNUHH+2ooLRabE/cxOd4S6d2ovB6iikRp7DlHxhAdznT\nfnOYFWnqU0tdMFxLVoXjTRDTuJ47FtaqVdjrF5qGw3X1dz49vnbUA7ujvtPQ5Fc0\n8dv4eol2Q5y/BAl/JQB2pKZOKAAfF9fQrHiGnflY+RfqKE8HRqiNAihzRyEWfcyx\nSds1DrVYXIRklyUJSEIQqiGc4JJovzrgUUKBj9EsYpKU+IVERGi6S7etoxJv+KvI\npqTrGaK0EMM2NLPpa6X079so0fCrd7rBQeVuvQHfb1Qiiw7Rg2bZWWnOFXPx1Ivf\nswwQ5fxq2EsMkiFool2KnJIvigGmFExGy+NVJDmckaRpAWQTaVXEULaL07YH5DnJ\nry4nGkjm3uCOWrzCw5f3EgQlPeNOsMLpLUIwMNFDF2fUmPW3WWkJLt7C8e7sq9Xz\n7SjIdhTBmz66NfpvWg8Qp+xK54xw7VJ6KIOe6Xbp6paH8PNe3dcON2xXfmjv2pN6\ndEVK4ZBdilcnrfXjdRvtms4oLC4GicAkJ4EWnswReHm+w8g/W2UOjqAS+uM6kkog\ngKGalivDKUdUPVVIY0DP\n=sH1v\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 479e3bfcc900bef1c60eb55c8696c6d7f934100a\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748261460 +0000\ncommitter GitHub <noreply@github.com> 1748261460 +0000\n\nbuild(deps): bump devise_invitable from 2.0.10 to 2.0.11\n\nBumps [devise_invitable](https://github.com/scambra/devise_invitable) from 2.0.10 to 2.0.11.\n- [Changelog](https://github.com/scambra/devise_invitable/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/scambra/devise_invitable/compare/v2.0.10...v2.0.11)\n\n---\nupdated-dependencies:\n- dependency-name: devise_invitable\n  dependency-version: 2.0.11\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-26T12:11:05Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/ef0cc996328147d647016af8e6375b585854d8b8",
+    "html_url": "https://github.com/rubyforgood/casa/commit/ef0cc996328147d647016af8e6375b585854d8b8",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/ef0cc996328147d647016af8e6375b585854d8b8/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "cb9afe21a973ace5bf18c33580f74555a8cba085",
+    "node_id": "C_kwDODs5nkdoAKGNiOWFmZTIxYTk3M2FjZTViZjE4YzMzNTgwZjc0NTU1YThjYmEwODU",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-26T12:10:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-26T12:10:21Z"
+      },
+      "message": "build(deps): bump noticed from 2.6.1 to 2.7.0\n\nBumps [noticed](https://github.com/excid3/noticed) from 2.6.1 to 2.7.0.\n- [Release notes](https://github.com/excid3/noticed/releases)\n- [Changelog](https://github.com/excid3/noticed/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/excid3/noticed/compare/v2.6.1...v2.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: noticed\n  dependency-version: 2.7.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "15493fef5f57f80f205420e00b53d10a36142368",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/15493fef5f57f80f205420e00b53d10a36142368"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/cb9afe21a973ace5bf18c33580f74555a8cba085",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoNFotCRC1aQ7uu5UhlAAAO3AQAKuNey6AQ6xiN5dD1lR9K3dX\nKHSzd9b6PzwhsTcAaUnoIBmPy9LBk2NYASEZEONm87eCGO95y69PgVMYhFy8Bo3J\nMzwT+IHNfgSWwOkoEiB8Ti8llGcwTPtqNy1YkZ4lfbm5AdYQIQHWwtuUMGZ9qsmh\nHpFt6kZJUKEKwnDpL7iT96AZty28b8ME5o3nYEcqbjMORAPUD27l2DeBO4aPR+qt\n7/BAO0LDGH1kmB9a2GMn9OcW6nYcRWDudYTbv0MSKl6FQvJPVVINEYSVLPKVWvD4\nPlBNRL8NwZpZQraCGPsjGqvUOm+CYD1I5dV1b26Es5l348WaexARk+Big9rsKfjz\niJR57bFg/zyfytAbfWtbelkF6TEWUWo6O9ezOi+A0TwCPAjjGLZL0X7wuD/Nnw8w\n85eCoferCeJ23AIDEIjlhb4XJXcSVnAexldwChaUWVDdX2BUkwCrxD+miZdgdic+\nJ99VlmzBfe9dinSLngkE82d7TFhjsdhWH8WOXXW0+MDITOcqjxvC/46LxJ0k29HB\ntqont+Jzrqli2euZ+XDAHrL+Y5meCGlfVnDb4aZb396WgoRy6BD0rOaOvh+AK9DZ\nRgKjDCANT2gg4TPPcNx0rwQS7UerrLLm7URKZ83ldFvdLJA9MwMnYydzHvsH9KnX\niopE8uT4R5FnUrVHeNBG\n=Joth\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 15493fef5f57f80f205420e00b53d10a36142368\nparent ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1748261421 +0000\ncommitter GitHub <noreply@github.com> 1748261421 +0000\n\nbuild(deps): bump noticed from 2.6.1 to 2.7.0\n\nBumps [noticed](https://github.com/excid3/noticed) from 2.6.1 to 2.7.0.\n- [Release notes](https://github.com/excid3/noticed/releases)\n- [Changelog](https://github.com/excid3/noticed/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/excid3/noticed/compare/v2.6.1...v2.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: noticed\n  dependency-version: 2.7.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-26T12:10:25Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/cb9afe21a973ace5bf18c33580f74555a8cba085",
+    "html_url": "https://github.com/rubyforgood/casa/commit/cb9afe21a973ace5bf18c33580f74555a8cba085",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/cb9afe21a973ace5bf18c33580f74555a8cba085/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+        "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae"
+      }
+    ]
+  },
+  {
+    "sha": "ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+    "node_id": "C_kwDODs5nkdoAKGJhMmJhYTgxMDJiMGEzZWM3MmFjZmQyMGE0NmY0YjU4YmJkYTdhYWU",
+    "commit": {
+      "author": {
+        "name": "compwron",
+        "email": "compiledwrong@gmail.com",
+        "date": "2025-05-22T18:43:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-22T18:43:05Z"
+      },
+      "message": "Merge pull request #6398 from Gabe-Torres/6380-rubocop-config-tune\n\nRubocop config tune up",
+      "tree": {
+        "sha": "5dd642dda0ee6182de7d90edc65cac1b93c02e78",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/5dd642dda0ee6182de7d90edc65cac1b93c02e78"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoL3A5CRC1aQ7uu5UhlAAAgh8QAFnSyWfo49Ggz4lMtNFBexE/\nbbqFqgdc5bWYDXeBwpLqNALCQMpKv7yUGa0OxtJ2wibFpE2qpiJXK1jcMz/F+9Gq\nmj/437TIjccOIJypunfdMsNFa3ro7LowOsPJERxoOl4jvr0f7mDKk36WMNflKJVM\nWpod6N3dAm+hXcdekXCLuQox4DMdP858lqutplKd7o0zmIQ7Vl7Cm2N6kOjH4mx0\nZYTmTZzPnsX+eldQ6bCn+zegMKo45zjX5XY6Pbvu9trKbFFFT96vaFMUIodlWxiJ\nY1oETLFr0qjF4IrxrXQjuVsiJS3ryUwY4tEQMBCREKynlnOSHQQ5LrWcxWQsdk4m\n+5BxlA8UQR1h0EkoTvxDKC/WRaAVgwwTxkzF2lW4k/shT79CZhyEKljJp4thIVQl\nZSO5WzECac8eAtm+aBwncCz/INkOYW94AjgbAIi5N3oxS6qaA2XsJcCUdXwMeUZY\neKFo9pXcsX9+pspHzDMTeGEIqkaBa/1Cce96J8x0N6ndy6iyrPGPnq21Pg0l+a4m\nFSuOI0gAbCdYAQy2Rgdx4QvldkgAR3wx+GOVSsJuPm5XuYXzox26Dx1JnpL2VTHC\nA6mwBdpiKTz4/kab4G6wz0gm1cj+0f28Ezp55FpyGrX6Q7LNdexSnjUmUdaWTMJc\nQC06bVNG0stJLxN4YnNq\n=Hror\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5dd642dda0ee6182de7d90edc65cac1b93c02e78\nparent bb101e288af969983e3ec0d37539d6fc60017a2a\nparent 98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981\nauthor compwron <compiledwrong@gmail.com> 1747939385 -0700\ncommitter GitHub <noreply@github.com> 1747939385 -0700\n\nMerge pull request #6398 from Gabe-Torres/6380-rubocop-config-tune\n\nRubocop config tune up",
+        "verified_at": "2025-05-22T18:43:16Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+    "html_url": "https://github.com/rubyforgood/casa/commit/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/ba2baa8102b0a3ec72acfd20a46f4b58bbda7aae/comments",
+    "author": {
+      "login": "compwron",
+      "id": 578159,
+      "node_id": "MDQ6VXNlcjU3ODE1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/578159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compwron",
+      "html_url": "https://github.com/compwron",
+      "followers_url": "https://api.github.com/users/compwron/followers",
+      "following_url": "https://api.github.com/users/compwron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compwron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compwron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compwron/subscriptions",
+      "organizations_url": "https://api.github.com/users/compwron/orgs",
+      "repos_url": "https://api.github.com/users/compwron/repos",
+      "events_url": "https://api.github.com/users/compwron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compwron/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb101e288af969983e3ec0d37539d6fc60017a2a",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/bb101e288af969983e3ec0d37539d6fc60017a2a",
+        "html_url": "https://github.com/rubyforgood/casa/commit/bb101e288af969983e3ec0d37539d6fc60017a2a"
+      },
+      {
+        "sha": "98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+        "html_url": "https://github.com/rubyforgood/casa/commit/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981"
+      }
+    ]
+  },
+  {
+    "sha": "98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+    "node_id": "C_kwDODs5nkdoAKDk4ZGFkMmNhNWJiY2JiYjBjODNmNTRhMmY4NTUzYTJjZjIzNWQ5ODE",
+    "commit": {
+      "author": {
+        "name": "Gabriel Torres",
+        "email": "127896538+Gabe-Torres@users.noreply.github.com",
+        "date": "2025-05-21T22:48:19Z"
+      },
+      "committer": {
+        "name": "Gabriel Torres",
+        "email": "127896538+Gabe-Torres@users.noreply.github.com",
+        "date": "2025-05-21T22:48:19Z"
+      },
+      "message": "update: spec test to comply with rubocop inspect and bin/lint command\n\nFollowing spec files were updated\n\n- spec/system/static/index_spec.rb\n- spec/system/volunteers/index_spec.rb\n- spec/views/all_casa_admins/patch_notes/index.html.erb_spec.rb",
+      "tree": {
+        "sha": "299a61b466372b969fd0e72ac74e88da7f0e03e5",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/299a61b466372b969fd0e72ac74e88da7f0e03e5"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+    "html_url": "https://github.com/rubyforgood/casa/commit/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/98dad2ca5bbcbbb0c83f54a2f8553a2cf235d981/comments",
+    "author": {
+      "login": "Gabe-Torres",
+      "id": 127896538,
+      "node_id": "U_kgDOB5-L2g",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127896538?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gabe-Torres",
+      "html_url": "https://github.com/Gabe-Torres",
+      "followers_url": "https://api.github.com/users/Gabe-Torres/followers",
+      "following_url": "https://api.github.com/users/Gabe-Torres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gabe-Torres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gabe-Torres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gabe-Torres/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gabe-Torres/orgs",
+      "repos_url": "https://api.github.com/users/Gabe-Torres/repos",
+      "events_url": "https://api.github.com/users/Gabe-Torres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gabe-Torres/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Gabe-Torres",
+      "id": 127896538,
+      "node_id": "U_kgDOB5-L2g",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127896538?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gabe-Torres",
+      "html_url": "https://github.com/Gabe-Torres",
+      "followers_url": "https://api.github.com/users/Gabe-Torres/followers",
+      "following_url": "https://api.github.com/users/Gabe-Torres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gabe-Torres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gabe-Torres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gabe-Torres/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gabe-Torres/orgs",
+      "repos_url": "https://api.github.com/users/Gabe-Torres/repos",
+      "events_url": "https://api.github.com/users/Gabe-Torres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gabe-Torres/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "831061ac7982a47f08f90768e5b5df081210d7b0",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/831061ac7982a47f08f90768e5b5df081210d7b0",
+        "html_url": "https://github.com/rubyforgood/casa/commit/831061ac7982a47f08f90768e5b5df081210d7b0"
+      }
+    ]
+  },
+  {
+    "sha": "bb101e288af969983e3ec0d37539d6fc60017a2a",
+    "node_id": "C_kwDODs5nkdoAKGJiMTAxZTI4OGFmOTY5OTgzZTNlYzBkMzc1MzlkNmZjNjAwMTdhMmE",
+    "commit": {
+      "author": {
+        "name": "Shen Yang",
+        "email": "shenyang64@gmail.com",
+        "date": "2025-05-21T19:08:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-21T19:08:37Z"
+      },
+      "message": "Merge pull request #6394 from rubyforgood/dependabot/bundler/amazing_print-1.8.0\n\nbuild(deps): bump amazing_print from 1.7.2 to 1.8.0",
+      "tree": {
+        "sha": "952899879f72ae9911131c3285111c0e980ee0f8",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/952899879f72ae9911131c3285111c0e980ee0f8"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/bb101e288af969983e3ec0d37539d6fc60017a2a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoLiS1CRC1aQ7uu5UhlAAA/KEQAEOCIpDd+D/dUBa8O1z5ei3V\ndvwD551eQPSDSWTIweTL/uC2rCHoLByoSWf5Lkfpt1bN77lpHCjf6lNpb5JSk7o/\n1iAkfWplCaen60maKa1vKuwUx/W6+pQNr4g5IDWirZj8vw9RascNcwDjNUBmYOs0\nF+vlsXTUmwre5LsjVy0wjhAJkDOiRm71FBaAnlZEi7RODHZVKlsYg3F521N7PCCI\nvDrqTJjcnSFCkUgdLRrnEesLTxIMLeZcnhAdGwR/gjdLjidVyCLQEp+/u9y/HHI1\nUZPBLlnr0Bncwel/br82+OeZdAuro4ZSC5igcj+VLchkwK2cOWgRiAvjFR4Ft650\ndDXgKI/N5q5qkeKumeJ89o/msfmFjLCFcJNLKIVHb/hzsEeR5w+jHORuquHtY7Iy\niY5YXXb+KnxmwpvDRfHeooMPln117OYGJJ1cGjQxDJUNILJgf7ENAl58rtK2qTkr\n4SQ2Az5gWWd7Re18VWdWYCuVbkIQICF3b53HlwYQDbIEMmulJMz9L6NUK+xVQ7m2\nO6bm6Pcchr+4m133MciqGpe+kL9D7x9ou+N91EHUT7jYMQty72Dn4Oe2S6BkgXUu\nyv9KaFHwxk8Pb8dY/OlWz7kT69QygjuiTtiwBixpqMTCG/kQiKS3+ULruEquJlup\n3O/BrpFqOrzKKQymhsKd\n=467s\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 952899879f72ae9911131c3285111c0e980ee0f8\nparent b0415602c2cc4abaf19a84c3758cb85e49927daa\nparent 2b85bb485a445e7a8b46ae794bc4f7416bf89412\nauthor Shen Yang <shenyang64@gmail.com> 1747854517 -0500\ncommitter GitHub <noreply@github.com> 1747854517 -0500\n\nMerge pull request #6394 from rubyforgood/dependabot/bundler/amazing_print-1.8.0\n\nbuild(deps): bump amazing_print from 1.7.2 to 1.8.0",
+        "verified_at": "2025-05-21T19:08:50Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/bb101e288af969983e3ec0d37539d6fc60017a2a",
+    "html_url": "https://github.com/rubyforgood/casa/commit/bb101e288af969983e3ec0d37539d6fc60017a2a",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/bb101e288af969983e3ec0d37539d6fc60017a2a/comments",
+    "author": {
+      "login": "FireLemons",
+      "id": 8918762,
+      "node_id": "MDQ6VXNlcjg5MTg3NjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8918762?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FireLemons",
+      "html_url": "https://github.com/FireLemons",
+      "followers_url": "https://api.github.com/users/FireLemons/followers",
+      "following_url": "https://api.github.com/users/FireLemons/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FireLemons/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FireLemons/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FireLemons/subscriptions",
+      "organizations_url": "https://api.github.com/users/FireLemons/orgs",
+      "repos_url": "https://api.github.com/users/FireLemons/repos",
+      "events_url": "https://api.github.com/users/FireLemons/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FireLemons/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0415602c2cc4abaf19a84c3758cb85e49927daa",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/b0415602c2cc4abaf19a84c3758cb85e49927daa",
+        "html_url": "https://github.com/rubyforgood/casa/commit/b0415602c2cc4abaf19a84c3758cb85e49927daa"
+      },
+      {
+        "sha": "2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+        "html_url": "https://github.com/rubyforgood/casa/commit/2b85bb485a445e7a8b46ae794bc4f7416bf89412"
+      }
+    ]
+  },
+  {
+    "sha": "2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+    "node_id": "C_kwDODs5nkdoAKDJiODViYjQ4NWE0NDVlN2E4YjQ2YWU3OTRiYzRmNzQxNmJmODk0MTI",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2025-05-21T18:54:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-21T18:54:53Z"
+      },
+      "message": "build(deps): bump amazing_print from 1.7.2 to 1.8.0\n\nBumps [amazing_print](https://github.com/amazing-print/amazing_print) from 1.7.2 to 1.8.0.\n- [Release notes](https://github.com/amazing-print/amazing_print/releases)\n- [Changelog](https://github.com/amazing-print/amazing_print/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/amazing-print/amazing_print/compare/v1.7.2...1.8.0)\n\n---\nupdated-dependencies:\n- dependency-name: amazing_print\n  dependency-version: 1.8.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "952899879f72ae9911131c3285111c0e980ee0f8",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/952899879f72ae9911131c3285111c0e980ee0f8"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoLiF9CRC1aQ7uu5UhlAAAe1kQAIfDQo7uId+JyJ5iL+RboSAj\nteVfZcG8r9OVC1fn/W+rlP19roWtB5g+tPJ6XFclYOFcBbghW0LyF4UYLgMzkcDv\npDwiKqkfWRs5Br+Oka5lcs1hdprlWZQRLfi4h6IKkMyYc3JD9kxs0FPXkeEZ/PHF\naJhkN77JxLrGxLIO/PP9edxDCbaaXKDtS9dYchr76Bo4IFr3kaldVGvJerpWN4eT\n0Q/u8OxFo/mCvwU5PrK/zdCpAUQvgVXNRa8ruZc7ZoXyQFq23xzdLFs3d+8wudy2\nkHAj65eO7atayAiM6GuT9PmWzBF6WpiUBCoHo2oLsx7RDy66g7mOrIEdvaPBg/oB\nMfkdMSRldWCiBHiteZh+p6MJmt9RIInt6bKUHyXe+Bq3IEsuiUHPyBxHynpLK3sq\nSBji96MA3QG40IjfTsci8fbZjbIiRInU9hFJ+vzozcolG5kefi3tNhJkiQUs8FFQ\neII+TyJIjBR3lCREF9WXRxD+QNElAazp1uUKoP/GD+grOJaIwUxTQGzWX3ogGOcS\ntb45P6az9zTrEDT576mieb+Fjay/AqtIDt7y8pp3Vmiw7EB90OvQ3FzfMqyHAznq\nIPFWIAgWcsoOCiX/DIYGy+wYK8N2ISxObLgvd5ADTn0CLDLJUdj8wkp0rBN3otBD\n8X7R0lGn9ZMPMciavkBn\n=U0no\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 952899879f72ae9911131c3285111c0e980ee0f8\nparent b0415602c2cc4abaf19a84c3758cb85e49927daa\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1747853693 +0000\ncommitter GitHub <noreply@github.com> 1747853693 +0000\n\nbuild(deps): bump amazing_print from 1.7.2 to 1.8.0\n\nBumps [amazing_print](https://github.com/amazing-print/amazing_print) from 1.7.2 to 1.8.0.\n- [Release notes](https://github.com/amazing-print/amazing_print/releases)\n- [Changelog](https://github.com/amazing-print/amazing_print/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/amazing-print/amazing_print/compare/v1.7.2...1.8.0)\n\n---\nupdated-dependencies:\n- dependency-name: amazing_print\n  dependency-version: 1.8.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "verified_at": "2025-05-21T18:54:53Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+    "html_url": "https://github.com/rubyforgood/casa/commit/2b85bb485a445e7a8b46ae794bc4f7416bf89412",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/2b85bb485a445e7a8b46ae794bc4f7416bf89412/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0415602c2cc4abaf19a84c3758cb85e49927daa",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/b0415602c2cc4abaf19a84c3758cb85e49927daa",
+        "html_url": "https://github.com/rubyforgood/casa/commit/b0415602c2cc4abaf19a84c3758cb85e49927daa"
+      }
+    ]
+  },
+  {
+    "sha": "b0415602c2cc4abaf19a84c3758cb85e49927daa",
+    "node_id": "C_kwDODs5nkdoAKGIwNDE1NjAyYzJjYzRhYmFmMTlhODRjMzc1OGNiODVlNDk5MjdkYWE",
+    "commit": {
+      "author": {
+        "name": "Shen Yang",
+        "email": "shenyang64@gmail.com",
+        "date": "2025-05-21T18:53:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-21T18:53:43Z"
+      },
+      "message": "Merge pull request #6395 from rubyforgood/dependabot/bundler/rack-cors-3.0.0\n\nbuild(deps): bump rack-cors from 2.0.2 to 3.0.0",
+      "tree": {
+        "sha": "7083bf521ca744ba01c61cb4d047d1ffef60cd45",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/7083bf521ca744ba01c61cb4d047d1ffef60cd45"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/b0415602c2cc4abaf19a84c3758cb85e49927daa",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoLiE3CRC1aQ7uu5UhlAAAfukQAANQHunC65g0SGj4BJCrllMc\n7LzezjGtkYHk15qm4OvTEn559GnYePcYyDoBPzvH70zp4eKyOD2k9Dzhthx08ngn\nn9AXkO+8+mxc76zjRBnd4B4a92CAzM/r6YtVsuv9oUCq+zJwm5CUlgIn8m0ARWfY\nU9gtkz5y+ntkzBVbOBRW5zkTHfP0mD7lHEUzqPulSgRmtMzwHhXbO6/K6QoFrTFK\nMqSyyYautxuRtmAAubswxpN4ZA9uTgcUxuA88iRsZC5FqjIcmWzLGAYTfOBN0EON\nwex7+7yz22iLvqG9NoZ1FHXPj8iJML4gEPzNAWzdrSbjt2Ew5glxoTEd+CcJZ36b\nFSMK4j9PN21Zkb6VSonsP3CrdAmZzYzjcMHIAywoNnGpjzbBNXOhQFPU0Gc3S2/s\nXg389egFeAY9VRd30RNfWxwfh63ShWZ+s5Q10kjzPmhDNv+lZxrZeFZEgd9gocHr\nJln7EmZ5EfKd41dXbAKcTe25SgMgGdM/5Xgoh//klk27OPUAjVZxhcQKnRuMDOOf\nLsDbBTyFKEQhSDv+royAdROTsaXy/SD47a15YBpNG930lhYfmiVpeV6h1xhiSFB4\n716YfLTrFxOuZqqKcZMF7QzJ8pYfeigDHhUkaEzRJv/E6DW+lEVDOYK9qwoC2kM6\nf0e6n25iW6lS8ogRifTr\n=VQKh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7083bf521ca744ba01c61cb4d047d1ffef60cd45\nparent 9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1\nparent d0a1f932f701fc706ec675ad5c5a864ac1c7c3cd\nauthor Shen Yang <shenyang64@gmail.com> 1747853623 -0500\ncommitter GitHub <noreply@github.com> 1747853623 -0500\n\nMerge pull request #6395 from rubyforgood/dependabot/bundler/rack-cors-3.0.0\n\nbuild(deps): bump rack-cors from 2.0.2 to 3.0.0",
+        "verified_at": "2025-05-21T18:54:01Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/b0415602c2cc4abaf19a84c3758cb85e49927daa",
+    "html_url": "https://github.com/rubyforgood/casa/commit/b0415602c2cc4abaf19a84c3758cb85e49927daa",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/b0415602c2cc4abaf19a84c3758cb85e49927daa/comments",
+    "author": {
+      "login": "FireLemons",
+      "id": 8918762,
+      "node_id": "MDQ6VXNlcjg5MTg3NjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8918762?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FireLemons",
+      "html_url": "https://github.com/FireLemons",
+      "followers_url": "https://api.github.com/users/FireLemons/followers",
+      "following_url": "https://api.github.com/users/FireLemons/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FireLemons/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FireLemons/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FireLemons/subscriptions",
+      "organizations_url": "https://api.github.com/users/FireLemons/orgs",
+      "repos_url": "https://api.github.com/users/FireLemons/repos",
+      "events_url": "https://api.github.com/users/FireLemons/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FireLemons/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+        "html_url": "https://github.com/rubyforgood/casa/commit/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1"
+      },
+      {
+        "sha": "d0a1f932f701fc706ec675ad5c5a864ac1c7c3cd",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/d0a1f932f701fc706ec675ad5c5a864ac1c7c3cd",
+        "html_url": "https://github.com/rubyforgood/casa/commit/d0a1f932f701fc706ec675ad5c5a864ac1c7c3cd"
+      }
+    ]
+  },
+  {
+    "sha": "9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+    "node_id": "C_kwDODs5nkdoAKDlhNDJiMGVmOWJjMWYwYmJlZDBmYzJmYTE0MjJlNzhkY2UyMGRkZjE",
+    "commit": {
+      "author": {
+        "name": "Shen Yang",
+        "email": "shenyang64@gmail.com",
+        "date": "2025-05-21T18:52:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-21T18:52:44Z"
+      },
+      "message": "Merge pull request #6393 from rubyforgood/dependabot/bundler/selenium-webdriver-4.32.0\n\nbuild(deps-dev): bump selenium-webdriver from 4.31.0 to 4.32.0",
+      "tree": {
+        "sha": "15e79fa1e9219b01090c313a47fd795b88ee6fb6",
+        "url": "https://api.github.com/repos/rubyforgood/casa/git/trees/15e79fa1e9219b01090c313a47fd795b88ee6fb6"
+      },
+      "url": "https://api.github.com/repos/rubyforgood/casa/git/commits/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoLiD8CRC1aQ7uu5UhlAAAdyEQAJt5G8eroV08tPLar7Ugmb+2\n8rSfi4/yK0w9xjaeaMDydQ7r8vWABO57c9u/jdiU2gwIrjgRH/TnSBw9fp8V5Xdm\ns6WFYuxMaEdYliDCV0jyDM4Ofr6JoeRePj5BtSX4alUytpdZg9q5O9wK7yZRKCF8\ntQRIQoJTw+wlENpablqomyxaz+QuGgcRpDokjgsTkf7tzWK9jlJEVYs2J9B6xVHX\neJrb6pZs79SVnKM9cS9PTLTr4kZ9G2RVW15pHFjPWgQfZ3IF2kBo37l3A+N+W7CE\n2kQ2pgiQn6i57kC7z+NzH7G0caV7Tia6WuFNPWYVO1CwpsQp1YjyCy2G/fmleFoN\naIA7IgQCQBd/T8Bmxq305dLESWrcSw8vqFV/HNpcCpVhTbZciWzgz1r+uMMy/86n\nq7y99GJoxQc4qVWYgNI1b1kz/8UnYd/IFSm/y6+t7l/S8ODZp/9zJHc7Dap9fnB5\ndI2Hmu4odswIA1GcB6vFE2wXozk/uh8IeBEx46+w84K9h5fAsh82rgvNAYJGphcH\n2Se5X5hMmOc33eV3OQFnq58f4qhf7pWj8XFdJCLJXEuHPMzeAXQhukUIg/muDNNK\nyQaIkbB6f1FQWRQpLoCrJga+/Q/BpP+QIpld1G8qX6THUEqt43Jp5wAvmfSroimU\nmvjgqJQSHV7izOSXEcAR\n=IxlB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 15e79fa1e9219b01090c313a47fd795b88ee6fb6\nparent 326c582b202cb0af1c4b532b9e22d13fa27054d7\nparent 30e17993534f872af91f5e2fdabcf05ec41d667e\nauthor Shen Yang <shenyang64@gmail.com> 1747853564 -0500\ncommitter GitHub <noreply@github.com> 1747853564 -0500\n\nMerge pull request #6393 from rubyforgood/dependabot/bundler/selenium-webdriver-4.32.0\n\nbuild(deps-dev): bump selenium-webdriver from 4.31.0 to 4.32.0",
+        "verified_at": "2025-05-21T18:52:48Z"
+      }
+    },
+    "url": "https://api.github.com/repos/rubyforgood/casa/commits/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+    "html_url": "https://github.com/rubyforgood/casa/commit/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1",
+    "comments_url": "https://api.github.com/repos/rubyforgood/casa/commits/9a42b0ef9bc1f0bbed0fc2fa1422e78dce20ddf1/comments",
+    "author": {
+      "login": "FireLemons",
+      "id": 8918762,
+      "node_id": "MDQ6VXNlcjg5MTg3NjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8918762?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FireLemons",
+      "html_url": "https://github.com/FireLemons",
+      "followers_url": "https://api.github.com/users/FireLemons/followers",
+      "following_url": "https://api.github.com/users/FireLemons/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FireLemons/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FireLemons/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FireLemons/subscriptions",
+      "organizations_url": "https://api.github.com/users/FireLemons/orgs",
+      "repos_url": "https://api.github.com/users/FireLemons/repos",
+      "events_url": "https://api.github.com/users/FireLemons/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FireLemons/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "326c582b202cb0af1c4b532b9e22d13fa27054d7",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/326c582b202cb0af1c4b532b9e22d13fa27054d7",
+        "html_url": "https://github.com/rubyforgood/casa/commit/326c582b202cb0af1c4b532b9e22d13fa27054d7"
+      },
+      {
+        "sha": "30e17993534f872af91f5e2fdabcf05ec41d667e",
+        "url": "https://api.github.com/repos/rubyforgood/casa/commits/30e17993534f872af91f5e2fdabcf05ec41d667e",
+        "html_url": "https://github.com/rubyforgood/casa/commit/30e17993534f872af91f5e2fdabcf05ec41d667e"
+      }
+    ]
+  }
+]

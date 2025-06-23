@@ -1,0 +1,4 @@
+<%= turbo_stream.remove @ticket %>
+<% if @commit_metadatum.jira_tickets.none? %>
+  <%= turbo_stream.remove "#{@commit_metadatum.id}_jira_tickets_table" %>
+<% end %>

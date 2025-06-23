@@ -16,6 +16,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
 gem "dartsass-rails"
+gem "jsbundling-rails"
 gem "foreman"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
@@ -23,6 +24,7 @@ gem "foreman"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "httparty"
 
 # Use the database-backed adapters for Rails.cache and Active Job
 gem "solid_cache"
@@ -38,6 +40,7 @@ group :test do
   gem "rspec-rails"
   gem "capybara"
   gem "capybara-playwright-driver"
+  gem "webmock"
 end
 
 group :development, :test do
