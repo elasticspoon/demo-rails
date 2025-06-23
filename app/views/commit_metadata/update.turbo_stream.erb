@@ -1,0 +1,7 @@
+<%= turbo_stream.replace dom_id(@commit_metadatum, :safe_to_deploy) do %>
+  <%= render "commits/safe_to_deploy_checkbox", commit_metadatum: @commit_metadatum %>
+<% end %>
+
+<%= turbo_stream.replace "flash" do %>
+  <%= render partial: "shared/flash" %>
+<% end %>

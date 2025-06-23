@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_09_171000) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_23_141450) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "string"
@@ -34,6 +34,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_171000) do
     t.string "jira_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "safe_to_deploy", default: false, null: false
     t.index ["sha", "repo_owner", "repo_name"], name: "index_commit_metadata_on_sha_and_repo_owner_and_repo_name", unique: true
   end
 

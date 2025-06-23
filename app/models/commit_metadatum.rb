@@ -4,4 +4,5 @@ class CommitMetadatum < ApplicationRecord
 
   validates :sha, :repo_owner, :repo_name, presence: true
   validates :sha, uniqueness: { scope: [ :repo_owner, :repo_name ] }
+  attribute :safe_to_deploy, :boolean, default: false
 end

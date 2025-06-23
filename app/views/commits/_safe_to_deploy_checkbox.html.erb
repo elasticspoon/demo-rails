@@ -1,0 +1,9 @@
+<div id="<%= dom_id(commit_metadatum, :safe_to_deploy) %>">
+  <%= form_with(model: commit_metadatum, data: { turbo: true }) do |f| %>
+    <%= f.check_box :safe_to_deploy,
+                    checked: commit_metadatum.safe_to_deploy,
+                    onchange: "this.form.requestSubmit()",
+                    class: "usa-checkbox__input" %>
+    <%= f.label :safe_to_deploy, "Safe to deploy", class: "usa-checkbox__label" %>
+  <% end %>
+</div>
