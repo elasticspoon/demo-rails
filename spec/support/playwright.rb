@@ -9,13 +9,33 @@ Capybara.register_driver :my_playwright do |app|
 end
 
 RSpec.configure do |config|
-  config.before(:each, type: :system) do
+  config.before(:each, type: :system) do |ex|
+    Capybara::Session.include(Playwright::Test::Matchers)
     driven_by :my_playwright
+
+    if ex.metadata[:disable_playwright_locators] == true
+      Capybara::PlaywrightFinderPatch.real!
+    else
+      Capybara::PlaywrightFinderPatch.patch!
+    end
+  end
+end
+
+module Capybara
+  module PlaywrightFinderPatch
+    class << self
+      def patch! = @patch = true
+      def real! = @patch = false
+      def patch? = @patch
+    end
   end
 end
 
 Playwright::Test::Expect.prepend(Module.new do
   def call(actual, is_not)
+    raise 'here'
+    return super unless Capybara::PlaywrightFinderPatch.patch?
+
     case actual
     when Playwright::Page
       Playwright::PageAssertions.new(
