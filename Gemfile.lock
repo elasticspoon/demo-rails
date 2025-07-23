@@ -1,3 +1,17 @@
+PATH
+  remote: ../mission_control-jobs
+  specs:
+    mission_control-jobs (1.1.0)
+      actioncable (>= 7.1)
+      actionpack (>= 7.1)
+      activejob (>= 7.1)
+      activerecord (>= 7.1)
+      importmap-rails (>= 1.2.1)
+      irb (~> 1.13)
+      railties (>= 7.1)
+      stimulus-rails
+      turbo-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -404,6 +418,7 @@ DEPENDENCIES
   foreman
   importmap-rails
   kamal
+  mission_control-jobs!
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)

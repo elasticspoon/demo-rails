@@ -33,6 +33,7 @@ gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
+gem "mission_control-jobs", path: "../mission_control-jobs"
 
 group :test do
   gem "rspec-rails"
