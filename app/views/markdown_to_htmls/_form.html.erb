@@ -1,0 +1,18 @@
+<%= form_with(model: markdown_to_html) do |form| %>
+  <% if markdown_to_html.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(markdown_to_html.errors.count, "error") %> prohibited this markdown_to_html from being saved:</h2>
+
+      <ul>
+        <% markdown_to_html.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%= form.text :text %>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
