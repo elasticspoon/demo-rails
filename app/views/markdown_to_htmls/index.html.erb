@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Markdown to htmls" %>
+
+<h1>Markdown to htmls</h1>
+
+<div id="markdown_to_htmls">
+  <% @markdown_to_htmls.each do |markdown_to_html| %>
+    <%= render markdown_to_html %>
+    <p>
+      <%= link_to "Show this markdown to html", markdown_to_html %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New markdown to html", new_markdown_to_html_path %>

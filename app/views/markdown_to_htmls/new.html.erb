@@ -1,0 +1,11 @@
+<% content_for :title, "New markdown to html" %>
+
+<h1>New markdown to html</h1>
+
+<%= render "form", markdown_to_html: @markdown_to_html %>
+
+<br>
+
+<div>
+  <%= link_to "Back to markdown to htmls", markdown_to_htmls_path %>
+</div>

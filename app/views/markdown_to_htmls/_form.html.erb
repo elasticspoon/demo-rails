@@ -10,7 +10,10 @@
       </ul>
     </div>
   <% end %>
-  <%= form.text :text %>
+  <div>
+    <%= form.label :text, "Markdown Text" %>
+    <%= form.text_area :text, rows: 10, cols: 80 %>
+  </div>
 
   <div>
     <%= form.submit %>

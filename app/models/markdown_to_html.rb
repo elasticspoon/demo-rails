@@ -1,6 +1,2 @@
-
-class MarkdownToHtml
-  def text
-    ""
-  end
+class MarkdownToHtml < ApplicationRecord
 end

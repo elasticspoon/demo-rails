@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @markdown_to_html %>
+
+<div>
+  <%= link_to "Edit this markdown to html", edit_markdown_to_html_path(@markdown_to_html) %> |
+  <%= link_to "Back to markdown to htmls", markdown_to_htmls_path %>
+
+  <%= button_to "Destroy this markdown to html", @markdown_to_html, method: :delete %>
+</div>
