@@ -38,5 +38,7 @@ module TestApp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.assets.css_compressor = nil # If you are using a different CSS compressor
+    config.assets.pipeline = :propshaft
   end
 end

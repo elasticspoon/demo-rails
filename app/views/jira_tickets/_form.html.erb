@@ -1,0 +1,23 @@
+<tr id="<%= dom_id(ticket) %>">
+  <td>
+    <%= form_with(model: [commit_metadatum, ticket], id: dom_id(ticket, :form), data: { turbo: true }) do |f| %>
+      <%= f.text_field :ticket_number, class: "usa-input #{'usa-input--error' if ticket.errors[:ticket_number].any?}" %>
+      <% if ticket.errors[:ticket_number].any? %>
+        <span class="usa-error-message">
+          <%= ticket.errors[:ticket_number].join(', ') %>
+        </span>
+      <% end %>
+    <% end %>
+  </td>
+    <td><%= ticket.state %></td>
+    <td><%= ticket.author %></td>
+  <td>
+    <button type="submit" form="<%= dom_id(ticket, :form) %>" class="usa-button">Save</button>
+    <% if ticket.id %>
+      <%= link_to "Cancel", 
+          commit_metadatum_jira_tickets_path(commit_metadatum),
+          class: "usa-button usa-button--secondary",
+          data: { turbo_stream: true } %>
+    <% end %>
+  </td>
+</tr>
